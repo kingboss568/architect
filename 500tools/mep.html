@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>機電水電 · 100 Tools — 讓建築,活起來。</title>
+<meta name="description" content="看不見的脈絡,撐起整個空間。100 個機電水電計算工具:電壓降、HVAC、照度、消防。">
+<meta name="theme-color" content="#fbfbfd">
+<meta property="og:title" content="機電水電 · 100 Tools — 讓建築,活起來。">
+<meta property="og:description" content="看不見的脈絡,撐起整個空間。100 個機電水電計算工具:電壓降、HVAC、照度、消防。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+<style>/* ============================================================
+   500 TOOLS · Apple Store 美學 + 工具操作 UI
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;900&family=Noto+Serif+TC:wght@500;700;900&display=swap');
+
+:root {
+  --bg: #fbfbfd; --bg-soft: #f5f5f7; --bg-section: #ffffff;
+  --text: #1d1d1f; --text-soft: #424245; --text-muted: #6e6e73; --text-light: #86868b;
+  --accent: #0071e3; --accent-hover: #0077ed;
+  --line: #d2d2d7; --line-soft: #e8e8ed;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.04);
+  --shadow-md: 0 8px 24px rgba(0,0,0,.06);
+  --shadow-lg: 0 24px 60px rgba(0,0,0,.10);
+  --radius-sm: 12px; --radius: 18px; --radius-lg: 28px;
+  --c-arch:#1d6cf3; --c-interior:#b8895a; --c-realestate:#007a55; --c-landscape:#2d6a4f; --c-mep:#ff6b00;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+               "Helvetica Neue", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.47;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -.003em;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ============== 導覽列 ============== */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(251,251,253,.72);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.nav-inner {
+  max-width: 1080px; margin: 0 auto; padding: 0 22px;
+  height: 48px; display: flex; align-items: center; justify-content: space-between;
+}
+.nav-brand { font-weight: 600; color: var(--text); font-size: 14px; letter-spacing: -.01em; }
+.nav-brand:hover { text-decoration: none; opacity: .8; }
+.nav-links { display: flex; gap: 28px; align-items: center; }
+.nav-links a {
+  color: var(--text); font-size: 12.5px; opacity: .9;
+  transition: opacity .18s; white-space: nowrap;
+}
+.nav-links a:hover { text-decoration: none; opacity: 1; color: var(--accent); }
+.container { max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+
+/* ============== Hero ============== */
+.hero { text-align: center; padding: 96px 22px 72px; }
+.hero-eyebrow { font-size: 18px; color: var(--text-muted); margin-bottom: 14px; }
+.hero-title {
+  font-size: clamp(44px, 7vw, 88px); font-weight: 700;
+  line-height: 1.04; letter-spacing: -.02em; margin-bottom: 18px;
+}
+.hero-title .accent {
+  background: linear-gradient(135deg, #ff6b00, #ff2e88, #7e3aff, #00a3ff);
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.hero-sub {
+  font-size: clamp(20px, 2.4vw, 28px); color: var(--text-soft);
+  max-width: 760px; margin: 0 auto 28px; line-height: 1.32;
+}
+.hero-cta { display: inline-flex; gap: 14px; flex-wrap: wrap; justify-content: center; margin-top: 22px; }
+
+/* ============== 按鈕 ============== */
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 11px 24px; border-radius: 980px;
+  font-size: 14.5px; font-weight: 400;
+  border: none; cursor: pointer; text-decoration: none; white-space: nowrap;
+  transition: all .2s;
+}
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { background: var(--accent-hover); text-decoration: none; }
+.btn-ghost { background: transparent; color: var(--accent); }
+.btn-ghost:hover { text-decoration: underline; }
+.btn-arrow::after { content: " ›"; }
+.btn-lg { padding: 14px 30px; font-size: 16px; }
+
+/* ============== 主入口磚塊 ============== */
+.mosaic {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+  padding: 0 12px 12px; max-width: 1280px; margin: 0 auto;
+}
+.mosaic .tile-wide { grid-column: span 2; }
+.tile {
+  position: relative; border-radius: var(--radius-lg); overflow: hidden;
+  padding: 56px 44px; min-height: 480px;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  background: var(--bg-soft); cursor: pointer;
+  transition: transform .35s, box-shadow .35s;
+}
+.tile:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); text-decoration: none; }
+.tile-eyebrow { font-size: 14px; font-weight: 600; color: var(--text-muted); letter-spacing: .04em; text-transform: uppercase; margin-bottom: 8px; }
+.tile-title { font-size: clamp(32px, 3.6vw, 48px); font-weight: 700; line-height: 1.08; letter-spacing: -.02em; color: var(--text); margin-bottom: 10px; }
+.tile-sub { font-size: 19px; color: var(--text-soft); max-width: 460px; margin-bottom: 22px; line-height: 1.32; }
+.tile-cta { font-size: 15px; color: var(--accent); }
+.tile-deco { margin-top: auto; font-size: clamp(80px, 12vw, 180px); font-weight: 800; line-height: .9; letter-spacing: -.04em; opacity: .92; }
+.tile-arch       { background: linear-gradient(160deg, #eef3ff 0%, #d6e2ff 100%); }
+.tile-arch       .tile-deco { color: var(--c-arch); }
+.tile-interior   { background: linear-gradient(160deg, #fbf4ea 0%, #f0dfc6 100%); }
+.tile-interior   .tile-deco { color: var(--c-interior); }
+.tile-realestate { background: linear-gradient(160deg, #e9f7f1 0%, #c6e8d8 100%); }
+.tile-realestate .tile-deco { color: var(--c-realestate); }
+.tile-landscape  { background: linear-gradient(160deg, #ecf5ec 0%, #ccdfd0 100%); }
+.tile-landscape  .tile-deco { color: var(--c-landscape); }
+.tile-mep        { background: linear-gradient(160deg, #fff1e6 0%, #ffd9b8 100%); }
+.tile-mep        .tile-deco { color: var(--c-mep); }
+
+.section { padding: 96px 22px; background: var(--bg-section); border-top: 1px solid var(--line-soft); }
+.section-alt { background: var(--bg-soft); }
+.section-title { font-size: clamp(36px, 4.5vw, 56px); font-weight: 700; letter-spacing: -.02em; text-align: center; margin-bottom: 14px; }
+.section-sub { font-size: clamp(17px, 1.6vw, 21px); color: var(--text-muted); text-align: center; margin-bottom: 56px; max-width: 720px; margin-left: auto; margin-right: auto; }
+
+/* ============== 行業 hub Hero ============== */
+.industry-hero { text-align: center; padding: 110px 22px 80px; position: relative; overflow: hidden; }
+.industry-hero::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at top, var(--accent-soft, rgba(29,108,243,.08)) 0%, transparent 60%);
+  pointer-events: none;
+}
+.industry-hero-content { position: relative; z-index: 1; }
+.industry-num {
+  display: inline-block;
+  font-size: clamp(120px, 18vw, 220px); font-weight: 800;
+  letter-spacing: -.05em; line-height: .9; margin-bottom: 12px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-soft, var(--accent)));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.industry-tag {
+  display: inline-block; background: rgba(255,255,255,.7);
+  border: 1px solid var(--line); padding: 6px 14px; border-radius: 980px;
+  font-size: 13px; color: var(--text-soft); margin-bottom: 18px; font-weight: 500;
+}
+
+/* ============== 分類 pill ============== */
+.cats { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; padding: 24px 22px 0; max-width: 1080px; margin: 0 auto; }
+.cat { padding: 7px 16px; border-radius: 980px; background: var(--bg-soft); color: var(--text-soft); font-size: 13.5px; font-weight: 500; cursor: pointer; border: 1px solid transparent; transition: all .18s; user-select: none; }
+.cat:hover { background: #ececef; }
+.cat.is-active { background: var(--text); color: #fff; }
+.cat-count { display: inline-block; margin-left: 6px; opacity: .55; font-size: 12px; }
+
+/* ============== 工具卡片網格 ============== */
+.tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; padding: 40px 22px 60px; max-width: 1080px; margin: 0 auto; }
+.tool {
+  background: #fff; border-radius: var(--radius);
+  padding: 24px 22px; border: 1px solid var(--line-soft);
+  transition: all .25s; display: flex; flex-direction: column;
+  text-decoration: none; color: inherit; min-height: 168px;
+}
+.tool:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: var(--line); text-decoration: none; }
+.tool-num { font-size: 11px; font-weight: 600; color: var(--text-light); letter-spacing: .08em; margin-bottom: 8px; }
+.tool-name { font-size: 18px; font-weight: 600; color: var(--text); letter-spacing: -.01em; margin-bottom: 6px; }
+.tool-desc { font-size: 13.5px; color: var(--text-muted); line-height: 1.45; margin-bottom: 14px; flex: 1; }
+.tool-foot { display: flex; justify-content: space-between; align-items: center; font-size: 12px; }
+.tool-cat { font-weight: 500; color: var(--text-soft); }
+.tool-go { color: var(--accent); font-weight: 500; font-size: 13px; }
+.tool-go::after { content: " ›"; }
+.tool[hidden] { display: none !important; }
+
+.theme-arch       { --accent: #1d6cf3; --accent-hover: #0d5cd9; --accent-soft: #d6e2ff; --accent-bg: #eef3ff; }
+.theme-interior   { --accent: #b8895a; --accent-hover: #9c7244; --accent-soft: #f0dfc6; --accent-bg: #fbf4ea; }
+.theme-realestate { --accent: #007a55; --accent-hover: #00604a; --accent-soft: #c6e8d8; --accent-bg: #e9f7f1; }
+.theme-landscape  { --accent: #2d6a4f; --accent-hover: #1f5040; --accent-soft: #ccdfd0; --accent-bg: #ecf5ec; }
+.theme-mep        { --accent: #ff6b00; --accent-hover: #e25c00; --accent-soft: #ffd9b8; --accent-bg: #fff1e6; }
+
+/* ============== 工具分頁 hero ============== */
+.breadcrumb {
+  max-width: 1080px; margin: 0 auto; padding: 18px 22px 0;
+  font-size: 13px; color: var(--text-muted);
+  display: flex; gap: 8px; align-items: center;
+}
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb a:hover { color: var(--accent); text-decoration: none; }
+.breadcrumb .sep { color: var(--text-light); opacity: .6; }
+.breadcrumb .current { color: var(--text); }
+
+.tool-hero {
+  text-align: center; padding: 50px 22px 60px;
+  background: linear-gradient(180deg, var(--accent-bg, #f5f5f7) 0%, var(--bg) 75%);
+}
+.tool-num-big {
+  font-size: clamp(80px, 14vw, 160px); font-weight: 800;
+  letter-spacing: -.06em; line-height: .85;
+  background: linear-gradient(180deg, var(--accent), var(--accent-soft));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  margin-bottom: 14px;
+}
+.tool-cat-pill {
+  display: inline-block; background: rgba(255,255,255,.85);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border: 1px solid var(--line); padding: 6px 14px;
+  border-radius: 980px; font-size: 12px; color: var(--accent);
+  margin-bottom: 18px; font-weight: 600; letter-spacing: .02em;
+}
+.tool-h1 {
+  font-size: clamp(32px, 5vw, 56px); font-weight: 700;
+  letter-spacing: -.025em; line-height: 1.05; margin-bottom: 16px;
+  max-width: 920px; margin-left: auto; margin-right: auto;
+}
+.tool-h1-sub {
+  font-size: clamp(16px, 1.7vw, 19px); color: var(--text-soft);
+  max-width: 680px; margin: 0 auto; line-height: 1.5;
+}
+
+/* ============================================================
+   工具操作區 UI (核心)
+   ============================================================ */
+.tool-app-wrap {
+  max-width: 720px; margin: 0 auto; padding: 30px 22px 50px;
+}
+.t-app {
+  background: #fff; border: 1px solid var(--line-soft);
+  border-radius: var(--radius-lg); padding: 36px 30px;
+  box-shadow: var(--shadow-md);
+}
+
+/* 計算機 inputs */
+.t-inputs {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px; margin-bottom: 28px;
+}
+.t-field { display: flex; flex-direction: column; gap: 6px; }
+.t-label {
+  font-size: 13px; color: var(--text-muted); font-weight: 500;
+  display: flex; align-items: center; gap: 8px;
+}
+.t-unit-tag {
+  font-size: 11px; color: var(--text-light);
+  background: var(--bg-soft); padding: 1px 7px; border-radius: 6px;
+}
+.t-input {
+  width: 100%; padding: 12px 14px;
+  font-size: 16px; font-family: inherit; color: var(--text);
+  border: 1px solid var(--line); border-radius: 12px;
+  background: #fff; outline: none;
+  transition: border-color .15s, box-shadow .15s;
+  -webkit-appearance: none; -moz-appearance: textfield;
+}
+.t-input::-webkit-outer-spin-button, .t-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.t-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+/* 結果輸出 */
+.t-outputs {
+  background: var(--accent-bg, var(--bg-soft));
+  border-radius: var(--radius); padding: 22px 26px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.t-out-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding-bottom: 12px; border-bottom: 1px dashed rgba(0,0,0,.08);
+}
+.t-out-row:last-child { padding-bottom: 0; border-bottom: none; }
+.t-out-label { font-size: 14px; color: var(--text-soft); font-weight: 500; }
+.t-out-value { font-size: 28px; font-weight: 600; color: var(--accent); letter-spacing: -.01em; font-feature-settings: "tnum"; }
+.t-out-value .t-num { font-size: 32px; font-weight: 700; }
+.t-out-value .t-unit { font-size: 14px; color: var(--text-muted); margin-left: 4px; font-weight: 400; }
+
+/* 雙向換算 */
+.t-conv-pair {
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  gap: 16px; align-items: end;
+}
+.t-conv-arrow {
+  font-size: 26px; color: var(--accent); padding-bottom: 10px;
+  text-align: center;
+}
+
+/* 查表 */
+.t-search {
+  margin-bottom: 18px;
+}
+.t-table-wrap {
+  border: 1px solid var(--line-soft); border-radius: var(--radius);
+  overflow: auto; max-height: 480px;
+}
+.t-table {
+  width: 100%; border-collapse: collapse; font-size: 14px;
+}
+.t-table th {
+  background: var(--bg-soft); color: var(--text-soft);
+  padding: 11px 14px; text-align: left; font-weight: 600;
+  position: sticky; top: 0; z-index: 1;
+  border-bottom: 1px solid var(--line);
+}
+.t-table td {
+  padding: 10px 14px; border-bottom: 1px solid var(--line-soft);
+  color: var(--text);
+}
+.t-table tr:hover td { background: var(--bg-soft); }
+.t-table tr:last-child td { border-bottom: none; }
+
+/* 檢核清單 */
+.t-progress-row { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+.t-progress-bar {
+  flex: 1; height: 8px; background: var(--bg-soft);
+  border-radius: 980px; overflow: hidden;
+}
+.t-progress-fill {
+  height: 100%; background: var(--accent);
+  border-radius: 980px; transition: width .3s;
+}
+.t-progress-num {
+  font-size: 13px; color: var(--text-soft); font-weight: 600;
+  font-feature-settings: "tnum"; min-width: 60px; text-align: right;
+}
+.t-check-list { list-style: none; display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; }
+.t-check-item {
+  border-radius: 12px; transition: background .15s;
+}
+.t-check-item:hover { background: var(--bg-soft); }
+.t-check-item.done .t-check-text strong { color: var(--text-light); text-decoration: line-through; }
+.t-check-label {
+  display: flex; gap: 12px; align-items: flex-start;
+  padding: 10px 12px; cursor: pointer;
+}
+.t-check-box {
+  position: absolute; opacity: 0; pointer-events: none;
+}
+.t-check-mark {
+  width: 22px; height: 22px; border-radius: 7px;
+  border: 2px solid var(--line); flex-shrink: 0; margin-top: 2px;
+  display: inline-block; position: relative; transition: all .15s;
+}
+.t-check-box:checked + .t-check-mark {
+  background: var(--accent); border-color: var(--accent);
+}
+.t-check-box:checked + .t-check-mark::after {
+  content: ""; position: absolute; left: 6px; top: 2px;
+  width: 6px; height: 11px;
+  border: solid #fff; border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.t-check-text { display: flex; flex-direction: column; gap: 2px; }
+.t-check-text strong { font-size: 14.5px; font-weight: 500; color: var(--text); }
+.t-check-text small { font-size: 12.5px; color: var(--text-muted); line-height: 1.45; }
+.t-btn-reset {
+  margin-top: 18px; padding: 8px 18px;
+  font-size: 13px; font-weight: 500;
+  color: var(--text-muted);
+  background: transparent; border: 1px solid var(--line);
+  border-radius: 980px; cursor: pointer;
+  transition: all .15s;
+}
+.t-btn-reset:hover { background: var(--bg-soft); color: var(--text); }
+
+/* 參考卡 */
+.t-ref-section {
+  padding-bottom: 22px; margin-bottom: 22px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.t-ref-section:last-child { padding-bottom: 0; margin-bottom: 0; border: none; }
+.t-ref-title {
+  font-size: 16px; font-weight: 600; color: var(--accent);
+  margin-bottom: 10px; letter-spacing: -.005em;
+}
+.t-ref-body {
+  font-size: 15px; color: var(--text-soft); line-height: 1.65;
+}
+.t-ref-body code, .t-ref-body .formula {
+  font-family: "SF Mono", "Menlo", "Monaco", monospace;
+  background: var(--bg-soft); padding: 2px 6px;
+  border-radius: 6px; font-size: 14px; color: var(--accent);
+}
+
+/* note */
+.t-note {
+  margin-top: 20px; padding: 12px 16px;
+  background: var(--bg-soft); border-radius: 12px;
+  font-size: 13px; color: var(--text-muted); line-height: 1.55;
+}
+
+/* ============== 同分類關聯 / 分頁導覽 ============== */
+.related { padding: 60px 22px 40px; background: var(--bg-soft); border-top: 1px solid var(--line-soft); }
+.related-title { text-align: center; font-size: clamp(22px, 2.8vw, 32px); font-weight: 700; letter-spacing: -.02em; margin-bottom: 8px; }
+.related-sub { text-align: center; font-size: 14px; color: var(--text-muted); margin-bottom: 30px; }
+.related-grid {
+  max-width: 1080px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px;
+}
+
+.page-nav {
+  max-width: 1080px; margin: 24px auto 60px; padding: 0 22px;
+  display: grid; grid-template-columns: 1fr auto 1fr; gap: 14px;
+}
+.page-nav-link {
+  display: flex; flex-direction: column; padding: 18px 22px;
+  background: #fff; border: 1px solid var(--line-soft);
+  border-radius: var(--radius); color: var(--text);
+  transition: all .2s; min-height: 70px; justify-content: center;
+}
+.page-nav-link:hover { text-decoration: none; border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.page-nav-link.dim { opacity: .35; pointer-events: none; }
+.page-nav-tag { font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); font-weight: 500; margin-bottom: 4px; }
+.page-nav-name { font-size: 14px; font-weight: 600; color: var(--text); }
+.page-nav-link.next { text-align: right; }
+.page-nav-back {
+  display: flex; align-items: center; justify-content: center;
+  padding: 0 24px; color: var(--accent); font-size: 14px; font-weight: 500;
+  border: 1px solid transparent; border-radius: var(--radius);
+}
+.page-nav-back:hover { background: rgba(0,0,0,.03); text-decoration: none; }
+
+/* ============== 廣告 ============== */
+.ad-slot {
+  max-width: 1080px; margin: 30px auto; padding: 0 22px;
+  display: flex; justify-content: center; min-height: 90px;
+}
+.ad-slot ins { display: block; width: 100%; max-width: 728px; }
+
+/* ============== Footer / Quote ============== */
+.quote-section { padding: 100px 22px; background: var(--bg-soft); text-align: center; }
+.quote {
+  font-family: "Noto Serif TC", Georgia, serif; font-weight: 500;
+  font-size: clamp(24px, 3.4vw, 40px); letter-spacing: -.015em;
+  max-width: 880px; margin: 0 auto 18px; line-height: 1.32; font-style: italic;
+}
+.quote-cite { font-size: 14px; color: var(--text-muted); letter-spacing: .04em; text-transform: uppercase; }
+
+.footer { background: #f5f5f7; color: var(--text-muted); font-size: 12px; padding: 28px 22px 26px; border-top: 1px solid var(--line-soft); }
+.footer-inner { max-width: 1080px; margin: 0 auto; line-height: 1.6; }
+.footer-top {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 14px;
+  padding-bottom: 14px; border-bottom: 1px solid var(--line-soft); margin-bottom: 14px;
+}
+.footer-brand { font-weight: 600; color: var(--text-soft); font-size: 13px; }
+.footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+.footer-links a { color: var(--text-muted); font-size: 12px; }
+.footer-bottom { color: var(--text-light); }
+
+/* ============== 動畫 ============== */
+@keyframes rise { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.rise { animation: rise .7s cubic-bezier(.2,.8,.2,1) both; }
+.rise-1 { animation-delay: .05s; }
+.rise-2 { animation-delay: .12s; }
+.rise-3 { animation-delay: .19s; }
+.rise-4 { animation-delay: .26s; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+/* ============== 響應式 ============== */
+@media (max-width: 768px) {
+  .nav-inner { height: 44px; padding: 0 16px; }
+  .nav-links { gap: 14px; }
+  .nav-links a { font-size: 11.5px; }
+  .hero { padding: 64px 18px 48px; }
+  .mosaic { grid-template-columns: 1fr; padding: 0 12px 12px; }
+  .mosaic .tile-wide { grid-column: span 1; }
+  .tile { padding: 40px 28px; min-height: 380px; }
+  .industry-hero { padding: 76px 18px 56px; }
+  .tools-grid { grid-template-columns: 1fr; padding: 28px 18px 48px; gap: 14px; }
+  .quote-section { padding: 70px 22px; }
+  .footer-top { flex-direction: column; align-items: flex-start; }
+  .tool-hero { padding: 36px 18px 48px; }
+  .t-app { padding: 26px 22px; }
+  .t-inputs { grid-template-columns: 1fr; }
+  .t-conv-pair { grid-template-columns: 1fr; gap: 12px; }
+  .t-conv-arrow { transform: rotate(90deg); padding: 0; }
+  .page-nav { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .hero-cta { flex-direction: column; width: 100%; }
+  .hero-cta .btn { width: 100%; justify-content: center; }
+  .cats { padding: 18px 14px 0; }
+}
+
+/* select / color 補充樣式 */
+.t-select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'><path fill='%23999' d='M6 8L0 0h12z'/></svg>");
+  background-repeat: no-repeat; background-position: right 14px center; background-size: 10px;
+  padding-right: 36px; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+.t-color { padding: 4px; height: 46px; cursor: pointer; }
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0268893833921284" crossorigin="anonymous"></script>
+</head>
+<body class="theme-mep">
+<nav class="nav"><div class="nav-inner">
+  <a href="index.html" class="nav-brand">🛠 500 Tools</a>
+  <div class="nav-links">
+    <a href="arch.html">建築土木</a>
+    <a href="interior.html">室內設計</a>
+    <a href="realestate.html">房地產</a>
+    <a href="landscape.html">景觀園藝</a>
+    <a href="mep.html">機電水電</a>
+  </div>
+</div></nav>
+
+<header class="industry-hero">
+  <div class="industry-hero-content">
+    <div class="industry-num rise rise-1">005</div>
+    <div class="industry-tag rise rise-2">MEP Systems</div>
+    <h1 class="hero-title rise rise-3">讓建築,活起來。</h1>
+    <p class="hero-sub rise rise-4">看不見的脈絡,撐起整個空間。100 個機電水電計算工具:電壓降、HVAC、照度、消防。</p>
+  </div>
+</header>
+
+<div class="cats" id="cats" role="tablist"></div>
+<main class="tools-grid" id="tools"></main>
+
+<div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0268893833921284" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+
+<section class="quote-section">
+  <blockquote class="quote">科技就是你出生之後才被發明出來的東西。</blockquote>
+  <div class="quote-cite">ALAN KAY</div>
+</section>
+
+<footer class="footer"><div class="footer-inner">
+  <div class="footer-top">
+    <div class="footer-brand">🛠 500 Tools · taiwanarch.com</div>
+    <div class="footer-links">
+      <a href="index.html">首頁</a>
+      <a href="arch.html">建築土木</a>
+      <a href="interior.html">室內設計</a>
+      <a href="realestate.html">房地產</a>
+      <a href="landscape.html">景觀園藝</a>
+      <a href="mep.html">機電水電</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 taiwanarch.com · 為效率而存在,為專業而生 · 工具僅供參考,實務應用請以法規與專業判斷為準。</div>
+</div></footer>
+
+<script>/* hub 頁:渲染工具卡片網格 + 分類篩選 */
+(function () {
+  'use strict';
+  const escape = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const pad3 = n => String(n).padStart(3, '0');
+
+  function uniqueCats(tools) {
+    const seen = new Map();
+    tools.forEach(t => seen.set(t.cat, (seen.get(t.cat)||0)+1));
+    return Array.from(seen.entries());
+  }
+
+  window.renderIndustry = function ({ tools, slug, catMount='cats', toolMount='tools' }) {
+    const cm = document.getElementById(catMount);
+    const tm = document.getElementById(toolMount);
+    if (!tm || !Array.isArray(tools)) return;
+
+    if (cm) {
+      const cats = uniqueCats(tools);
+      cm.innerHTML = `<button class="cat is-active" data-cat="__all">全部 <span class="cat-count">${tools.length}</span></button>` +
+        cats.map(([n, c]) => `<button class="cat" data-cat="${escape(n)}">${escape(n)} <span class="cat-count">${c}</span></button>`).join('');
+      cm.addEventListener('click', e => {
+        const btn = e.target.closest('.cat'); if (!btn) return;
+        cm.querySelectorAll('.cat').forEach(b => b.classList.remove('is-active'));
+        btn.classList.add('is-active');
+        const cat = btn.dataset.cat;
+        document.querySelectorAll('.tool').forEach(card => {
+          card.hidden = (cat !== '__all' && card.dataset.cat !== cat);
+        });
+      });
+    }
+
+    tm.innerHTML = tools.map((t, i) => {
+      const num = pad3(t.n || i+1);
+      return `<a class="tool" href="${slug}/${num}.html" data-cat="${escape(t.cat)}">
+        <div class="tool-num">№ ${num}</div>
+        <div class="tool-name">${escape(t.name)}</div>
+        <div class="tool-desc">${escape(t.desc)}</div>
+        <div class="tool-foot"><span class="tool-cat">${escape(t.cat)}</span><span class="tool-go">使用</span></div>
+      </a>`;
+    }).join('');
+  };
+})();
+</script>
+<script>
+window.TOOLS = [{"n":1,"name":"電壓降計算","desc":"由電流線徑算電壓降","cat":"電氣"},{"n":2,"name":"線徑選擇","desc":"由電流選銅線截面","cat":"電氣"},{"n":3,"name":"功率計算","desc":"P = V × I × cosφ","cat":"電氣"},{"n":4,"name":"三相功率","desc":"三相系統功率","cat":"電氣"},{"n":5,"name":"功率因數補償","desc":"由 cosφ 補到目標","cat":"電氣"},{"n":6,"name":"電費試算","desc":"由用電量推月電費","cat":"電氣"},{"n":7,"name":"馬達電流","desc":"由 HP 換電流","cat":"電氣"},{"n":8,"name":"馬達啟動電流","desc":"啟動電流估算","cat":"電氣"},{"n":9,"name":"變壓器容量","desc":"由總負載估容量","cat":"電氣"},{"n":10,"name":"開關箱負載","desc":"由迴路推總負載","cat":"電氣"},{"n":11,"name":"漏電斷路器","desc":"由用途選跳脫值","cat":"電氣"},{"n":12,"name":"接地電阻","desc":"由用途選接地電阻","cat":"電氣"},{"n":13,"name":"太陽能板數量","desc":"由發電目標推","cat":"電氣"},{"n":14,"name":"UPS 容量","desc":"由負載推 UPS","cat":"電氣"},{"n":15,"name":"電池容量","desc":"由負載推電池容量","cat":"電氣"},{"n":16,"name":"充電時間","desc":"電池充滿時間","cat":"電氣"},{"n":17,"name":"電線管徑","desc":"由電線數推導管徑","cat":"電氣"},{"n":18,"name":"電纜載流","desc":"由線徑推安培","cat":"電氣"},{"n":19,"name":"短路電流","desc":"變壓器二次短路","cat":"電氣"},{"n":20,"name":"變頻器選用","desc":"由馬達 HP 推","cat":"電氣"},{"n":21,"name":"LED 驅動","desc":"由 LED 串並算驅動","cat":"電氣"},{"n":22,"name":"配電箱規格","desc":"由迴路數推箱別","cat":"電氣"},{"n":23,"name":"電費分攤","desc":"分租套房電費分攤","cat":"電氣"},{"n":24,"name":"避雷針保護半徑","desc":"由高度推保護範圍","cat":"電氣"},{"n":25,"name":"突波保護器","desc":"由配電位置推等級","cat":"電氣"},{"n":26,"name":"水管管徑(冷水)","desc":"由戶數推主管管徑","cat":"給排水"},{"n":27,"name":"水管管徑(熱水)","desc":"由出水點推","cat":"給排水"},{"n":28,"name":"水管壓損","desc":"由管長與管徑","cat":"給排水"},{"n":29,"name":"水池容量","desc":"由人數推水池","cat":"給排水"},{"n":30,"name":"水塔容量","desc":"住宅水塔","cat":"給排水"},{"n":31,"name":"水泵揚程","desc":"由高度與管損","cat":"給排水"},{"n":32,"name":"水泵流量","desc":"由用水推流量","cat":"給排水"},{"n":33,"name":"水泵馬力","desc":"由揚程流量推","cat":"給排水"},{"n":34,"name":"排水管徑","desc":"由衛生器具數","cat":"給排水"},{"n":35,"name":"化糞池容量","desc":"由戶數推","cat":"給排水"},{"n":36,"name":"雨水回收","desc":"年回收量","cat":"給排水"},{"n":37,"name":"灑水系統流量","desc":"消防灑水主管","cat":"消防"},{"n":38,"name":"消防栓壓力","desc":"由樓層推壓力","cat":"消防"},{"n":39,"name":"滅火器數量","desc":"由面積推","cat":"消防"},{"n":40,"name":"灑水頭間距","desc":"灑水頭佈置","cat":"消防"},{"n":41,"name":"火警偵測器","desc":"探測器佈置","cat":"消防"},{"n":42,"name":"排煙風量","desc":"由防煙區推","cat":"消防"},{"n":43,"name":"防火時效","desc":"由用途推","cat":"消防"},{"n":44,"name":"安全梯寬度","desc":"由人數推梯寬","cat":"消防"},{"n":45,"name":"緊急照明","desc":"持續時間","cat":"消防"},{"n":46,"name":"冷氣噸數","desc":"由坪數推噸數","cat":"HVAC"},{"n":47,"name":"冷暖房負載","desc":"由體積推負載","cat":"HVAC"},{"n":48,"name":"通風換氣率","desc":"由用途推次數","cat":"HVAC"},{"n":49,"name":"排風機 CFM","desc":"風扇選型","cat":"HVAC"},{"n":50,"name":"風管尺寸","desc":"由風量推風管","cat":"HVAC"},{"n":51,"name":"EER 能源效率","desc":"冷氣效率","cat":"HVAC"},{"n":52,"name":"COP","desc":"性能係數","cat":"HVAC"},{"n":53,"name":"SEER","desc":"季節能源效率","cat":"HVAC"},{"n":54,"name":"冷媒充填","desc":"管長與冷媒","cat":"HVAC"},{"n":55,"name":"室內溫濕度","desc":"舒適區判定","cat":"HVAC"},{"n":56,"name":"流明計算(室內)","desc":"由坪數推流明","cat":"照明"},{"n":57,"name":"流明計算(辦公)","desc":"辦公室照度","cat":"照明"},{"n":58,"name":"流明計算(廚房)","desc":"廚房照度","cat":"照明"},{"n":59,"name":"燈具高度","desc":"工作面照度","cat":"照明"},{"n":60,"name":"燈具間距","desc":"嵌燈均勻分布","cat":"照明"},{"n":61,"name":"色溫推薦","desc":"由場所推","cat":"照明"},{"n":62,"name":"演色性 CRI","desc":"用途推 CRI","cat":"照明"},{"n":63,"name":"戶外 IP 等級","desc":"由環境推","cat":"照明"},{"n":64,"name":"LED 壽命","desc":"年使用時數估","cat":"照明"},{"n":65,"name":"緊急照明持續","desc":"應急時間","cat":"照明"},{"n":66,"name":"網路線等級","desc":"由速率選 Cat","cat":"弱電通訊"},{"n":67,"name":"光纖距離","desc":"由速率推距離","cat":"弱電通訊"},{"n":68,"name":"PoE 供電","desc":"由 PoE 標準","cat":"弱電通訊"},{"n":69,"name":"監視器數量","desc":"由面積推攝影機","cat":"弱電通訊"},{"n":70,"name":"無線網路覆蓋","desc":"AP 數量","cat":"弱電通訊"},{"n":71,"name":"廣播音壓","desc":"由距離推音壓","cat":"弱電通訊"},{"n":72,"name":"機櫃 U 數","desc":"設備佔用 U 數","cat":"弱電通訊"},{"n":73,"name":"監視儲存","desc":"硬碟容量估","cat":"弱電通訊"},{"n":74,"name":"機房空調","desc":"由設備耗電推","cat":"弱電通訊"},{"n":75,"name":"電話線對數","desc":"分機數推線對","cat":"弱電通訊"},{"n":76,"name":"接地等電位","desc":"等電位連結點","cat":"安全"},{"n":77,"name":"防爆等級","desc":"由場所推","cat":"安全"},{"n":78,"name":"IP 防護等級","desc":"由用途推","cat":"安全"},{"n":79,"name":"漏電保護","desc":"漏電動作電流","cat":"安全"},{"n":80,"name":"應急電源","desc":"持續供電時數","cat":"安全"},{"n":81,"name":"火災電源切斷","desc":"由樓層推應切","cat":"安全"},{"n":82,"name":"突波 SPD","desc":"突波吸收容量","cat":"安全"},{"n":83,"name":"緊急照明電池","desc":"電池容量需求","cat":"安全"},{"n":84,"name":"電動門設計","desc":"門寬與馬達","cat":"安全"},{"n":85,"name":"通氣管管徑","desc":"由排水管推","cat":"給排水"},{"n":86,"name":"熱水器容量","desc":"由人數推","cat":"給排水"},{"n":87,"name":"熱水循環","desc":"循環泵流量","cat":"給排水"},{"n":88,"name":"游泳池過濾","desc":"由池容積推","cat":"給排水"},{"n":89,"name":"灑水分區","desc":"由面積推分區","cat":"消防"},{"n":90,"name":"火災警報線距","desc":"探測器佈線","cat":"消防"},{"n":91,"name":"防煙區劃面積","desc":"由用途推","cat":"消防"},{"n":92,"name":"BMS 點數","desc":"控制點數估算","cat":"弱電通訊"},{"n":93,"name":"電梯選用","desc":"由樓層推電梯數","cat":"電氣"},{"n":94,"name":"自動門感應","desc":"感應器數量","cat":"電氣"},{"n":95,"name":"地板送風","desc":"OA 機房地板","cat":"HVAC"},{"n":96,"name":"VAV 風量","desc":"變風量箱選型","cat":"HVAC"},{"n":97,"name":"加溼器水量","desc":"加濕器需水量","cat":"HVAC"},{"n":98,"name":"冷凝水排放","desc":"由噸數推水量","cat":"HVAC"},{"n":99,"name":"碳排放估算","desc":"由用電推 CO2","cat":"綠建築"},{"n":100,"name":"綠建築 EEWH","desc":"基本評估點數","cat":"綠建築"}];
+renderIndustry({ tools: window.TOOLS, slug: 'mep' });
+</script>
+</body></html>

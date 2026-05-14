@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>室內設計 · 100 Tools — 設計,是看不見的藝術。</title>
+<meta name="description" content="讓空間,會說話。100 個室內設計可用工具,從面積到配色一站搞定。">
+<meta name="theme-color" content="#fbfbfd">
+<meta property="og:title" content="室內設計 · 100 Tools — 設計,是看不見的藝術。">
+<meta property="og:description" content="讓空間,會說話。100 個室內設計可用工具,從面積到配色一站搞定。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+<style>/* ============================================================
+   500 TOOLS · Apple Store 美學 + 工具操作 UI
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;900&family=Noto+Serif+TC:wght@500;700;900&display=swap');
+
+:root {
+  --bg: #fbfbfd; --bg-soft: #f5f5f7; --bg-section: #ffffff;
+  --text: #1d1d1f; --text-soft: #424245; --text-muted: #6e6e73; --text-light: #86868b;
+  --accent: #0071e3; --accent-hover: #0077ed;
+  --line: #d2d2d7; --line-soft: #e8e8ed;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.04);
+  --shadow-md: 0 8px 24px rgba(0,0,0,.06);
+  --shadow-lg: 0 24px 60px rgba(0,0,0,.10);
+  --radius-sm: 12px; --radius: 18px; --radius-lg: 28px;
+  --c-arch:#1d6cf3; --c-interior:#b8895a; --c-realestate:#007a55; --c-landscape:#2d6a4f; --c-mep:#ff6b00;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+               "Helvetica Neue", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.47;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -.003em;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ============== 導覽列 ============== */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(251,251,253,.72);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.nav-inner {
+  max-width: 1080px; margin: 0 auto; padding: 0 22px;
+  height: 48px; display: flex; align-items: center; justify-content: space-between;
+}
+.nav-brand { font-weight: 600; color: var(--text); font-size: 14px; letter-spacing: -.01em; }
+.nav-brand:hover { text-decoration: none; opacity: .8; }
+.nav-links { display: flex; gap: 28px; align-items: center; }
+.nav-links a {
+  color: var(--text); font-size: 12.5px; opacity: .9;
+  transition: opacity .18s; white-space: nowrap;
+}
+.nav-links a:hover { text-decoration: none; opacity: 1; color: var(--accent); }
+.container { max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+
+/* ============== Hero ============== */
+.hero { text-align: center; padding: 96px 22px 72px; }
+.hero-eyebrow { font-size: 18px; color: var(--text-muted); margin-bottom: 14px; }
+.hero-title {
+  font-size: clamp(44px, 7vw, 88px); font-weight: 700;
+  line-height: 1.04; letter-spacing: -.02em; margin-bottom: 18px;
+}
+.hero-title .accent {
+  background: linear-gradient(135deg, #ff6b00, #ff2e88, #7e3aff, #00a3ff);
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.hero-sub {
+  font-size: clamp(20px, 2.4vw, 28px); color: var(--text-soft);
+  max-width: 760px; margin: 0 auto 28px; line-height: 1.32;
+}
+.hero-cta { display: inline-flex; gap: 14px; flex-wrap: wrap; justify-content: center; margin-top: 22px; }
+
+/* ============== 按鈕 ============== */
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 11px 24px; border-radius: 980px;
+  font-size: 14.5px; font-weight: 400;
+  border: none; cursor: pointer; text-decoration: none; white-space: nowrap;
+  transition: all .2s;
+}
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { background: var(--accent-hover); text-decoration: none; }
+.btn-ghost { background: transparent; color: var(--accent); }
+.btn-ghost:hover { text-decoration: underline; }
+.btn-arrow::after { content: " ›"; }
+.btn-lg { padding: 14px 30px; font-size: 16px; }
+
+/* ============== 主入口磚塊 ============== */
+.mosaic {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+  padding: 0 12px 12px; max-width: 1280px; margin: 0 auto;
+}
+.mosaic .tile-wide { grid-column: span 2; }
+.tile {
+  position: relative; border-radius: var(--radius-lg); overflow: hidden;
+  padding: 56px 44px; min-height: 480px;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  background: var(--bg-soft); cursor: pointer;
+  transition: transform .35s, box-shadow .35s;
+}
+.tile:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); text-decoration: none; }
+.tile-eyebrow { font-size: 14px; font-weight: 600; color: var(--text-muted); letter-spacing: .04em; text-transform: uppercase; margin-bottom: 8px; }
+.tile-title { font-size: clamp(32px, 3.6vw, 48px); font-weight: 700; line-height: 1.08; letter-spacing: -.02em; color: var(--text); margin-bottom: 10px; }
+.tile-sub { font-size: 19px; color: var(--text-soft); max-width: 460px; margin-bottom: 22px; line-height: 1.32; }
+.tile-cta { font-size: 15px; color: var(--accent); }
+.tile-deco { margin-top: auto; font-size: clamp(80px, 12vw, 180px); font-weight: 800; line-height: .9; letter-spacing: -.04em; opacity: .92; }
+.tile-arch       { background: linear-gradient(160deg, #eef3ff 0%, #d6e2ff 100%); }
+.tile-arch       .tile-deco { color: var(--c-arch); }
+.tile-interior   { background: linear-gradient(160deg, #fbf4ea 0%, #f0dfc6 100%); }
+.tile-interior   .tile-deco { color: var(--c-interior); }
+.tile-realestate { background: linear-gradient(160deg, #e9f7f1 0%, #c6e8d8 100%); }
+.tile-realestate .tile-deco { color: var(--c-realestate); }
+.tile-landscape  { background: linear-gradient(160deg, #ecf5ec 0%, #ccdfd0 100%); }
+.tile-landscape  .tile-deco { color: var(--c-landscape); }
+.tile-mep        { background: linear-gradient(160deg, #fff1e6 0%, #ffd9b8 100%); }
+.tile-mep        .tile-deco { color: var(--c-mep); }
+
+.section { padding: 96px 22px; background: var(--bg-section); border-top: 1px solid var(--line-soft); }
+.section-alt { background: var(--bg-soft); }
+.section-title { font-size: clamp(36px, 4.5vw, 56px); font-weight: 700; letter-spacing: -.02em; text-align: center; margin-bottom: 14px; }
+.section-sub { font-size: clamp(17px, 1.6vw, 21px); color: var(--text-muted); text-align: center; margin-bottom: 56px; max-width: 720px; margin-left: auto; margin-right: auto; }
+
+/* ============== 行業 hub Hero ============== */
+.industry-hero { text-align: center; padding: 110px 22px 80px; position: relative; overflow: hidden; }
+.industry-hero::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at top, var(--accent-soft, rgba(29,108,243,.08)) 0%, transparent 60%);
+  pointer-events: none;
+}
+.industry-hero-content { position: relative; z-index: 1; }
+.industry-num {
+  display: inline-block;
+  font-size: clamp(120px, 18vw, 220px); font-weight: 800;
+  letter-spacing: -.05em; line-height: .9; margin-bottom: 12px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-soft, var(--accent)));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.industry-tag {
+  display: inline-block; background: rgba(255,255,255,.7);
+  border: 1px solid var(--line); padding: 6px 14px; border-radius: 980px;
+  font-size: 13px; color: var(--text-soft); margin-bottom: 18px; font-weight: 500;
+}
+
+/* ============== 分類 pill ============== */
+.cats { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; padding: 24px 22px 0; max-width: 1080px; margin: 0 auto; }
+.cat { padding: 7px 16px; border-radius: 980px; background: var(--bg-soft); color: var(--text-soft); font-size: 13.5px; font-weight: 500; cursor: pointer; border: 1px solid transparent; transition: all .18s; user-select: none; }
+.cat:hover { background: #ececef; }
+.cat.is-active { background: var(--text); color: #fff; }
+.cat-count { display: inline-block; margin-left: 6px; opacity: .55; font-size: 12px; }
+
+/* ============== 工具卡片網格 ============== */
+.tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; padding: 40px 22px 60px; max-width: 1080px; margin: 0 auto; }
+.tool {
+  background: #fff; border-radius: var(--radius);
+  padding: 24px 22px; border: 1px solid var(--line-soft);
+  transition: all .25s; display: flex; flex-direction: column;
+  text-decoration: none; color: inherit; min-height: 168px;
+}
+.tool:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: var(--line); text-decoration: none; }
+.tool-num { font-size: 11px; font-weight: 600; color: var(--text-light); letter-spacing: .08em; margin-bottom: 8px; }
+.tool-name { font-size: 18px; font-weight: 600; color: var(--text); letter-spacing: -.01em; margin-bottom: 6px; }
+.tool-desc { font-size: 13.5px; color: var(--text-muted); line-height: 1.45; margin-bottom: 14px; flex: 1; }
+.tool-foot { display: flex; justify-content: space-between; align-items: center; font-size: 12px; }
+.tool-cat { font-weight: 500; color: var(--text-soft); }
+.tool-go { color: var(--accent); font-weight: 500; font-size: 13px; }
+.tool-go::after { content: " ›"; }
+.tool[hidden] { display: none !important; }
+
+.theme-arch       { --accent: #1d6cf3; --accent-hover: #0d5cd9; --accent-soft: #d6e2ff; --accent-bg: #eef3ff; }
+.theme-interior   { --accent: #b8895a; --accent-hover: #9c7244; --accent-soft: #f0dfc6; --accent-bg: #fbf4ea; }
+.theme-realestate { --accent: #007a55; --accent-hover: #00604a; --accent-soft: #c6e8d8; --accent-bg: #e9f7f1; }
+.theme-landscape  { --accent: #2d6a4f; --accent-hover: #1f5040; --accent-soft: #ccdfd0; --accent-bg: #ecf5ec; }
+.theme-mep        { --accent: #ff6b00; --accent-hover: #e25c00; --accent-soft: #ffd9b8; --accent-bg: #fff1e6; }
+
+/* ============== 工具分頁 hero ============== */
+.breadcrumb {
+  max-width: 1080px; margin: 0 auto; padding: 18px 22px 0;
+  font-size: 13px; color: var(--text-muted);
+  display: flex; gap: 8px; align-items: center;
+}
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb a:hover { color: var(--accent); text-decoration: none; }
+.breadcrumb .sep { color: var(--text-light); opacity: .6; }
+.breadcrumb .current { color: var(--text); }
+
+.tool-hero {
+  text-align: center; padding: 50px 22px 60px;
+  background: linear-gradient(180deg, var(--accent-bg, #f5f5f7) 0%, var(--bg) 75%);
+}
+.tool-num-big {
+  font-size: clamp(80px, 14vw, 160px); font-weight: 800;
+  letter-spacing: -.06em; line-height: .85;
+  background: linear-gradient(180deg, var(--accent), var(--accent-soft));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  margin-bottom: 14px;
+}
+.tool-cat-pill {
+  display: inline-block; background: rgba(255,255,255,.85);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border: 1px solid var(--line); padding: 6px 14px;
+  border-radius: 980px; font-size: 12px; color: var(--accent);
+  margin-bottom: 18px; font-weight: 600; letter-spacing: .02em;
+}
+.tool-h1 {
+  font-size: clamp(32px, 5vw, 56px); font-weight: 700;
+  letter-spacing: -.025em; line-height: 1.05; margin-bottom: 16px;
+  max-width: 920px; margin-left: auto; margin-right: auto;
+}
+.tool-h1-sub {
+  font-size: clamp(16px, 1.7vw, 19px); color: var(--text-soft);
+  max-width: 680px; margin: 0 auto; line-height: 1.5;
+}
+
+/* ============================================================
+   工具操作區 UI (核心)
+   ============================================================ */
+.tool-app-wrap {
+  max-width: 720px; margin: 0 auto; padding: 30px 22px 50px;
+}
+.t-app {
+  background: #fff; border: 1px solid var(--line-soft);
+  border-radius: var(--radius-lg); padding: 36px 30px;
+  box-shadow: var(--shadow-md);
+}
+
+/* 計算機 inputs */
+.t-inputs {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px; margin-bottom: 28px;
+}
+.t-field { display: flex; flex-direction: column; gap: 6px; }
+.t-label {
+  font-size: 13px; color: var(--text-muted); font-weight: 500;
+  display: flex; align-items: center; gap: 8px;
+}
+.t-unit-tag {
+  font-size: 11px; color: var(--text-light);
+  background: var(--bg-soft); padding: 1px 7px; border-radius: 6px;
+}
+.t-input {
+  width: 100%; padding: 12px 14px;
+  font-size: 16px; font-family: inherit; color: var(--text);
+  border: 1px solid var(--line); border-radius: 12px;
+  background: #fff; outline: none;
+  transition: border-color .15s, box-shadow .15s;
+  -webkit-appearance: none; -moz-appearance: textfield;
+}
+.t-input::-webkit-outer-spin-button, .t-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.t-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+/* 結果輸出 */
+.t-outputs {
+  background: var(--accent-bg, var(--bg-soft));
+  border-radius: var(--radius); padding: 22px 26px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.t-out-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding-bottom: 12px; border-bottom: 1px dashed rgba(0,0,0,.08);
+}
+.t-out-row:last-child { padding-bottom: 0; border-bottom: none; }
+.t-out-label { font-size: 14px; color: var(--text-soft); font-weight: 500; }
+.t-out-value { font-size: 28px; font-weight: 600; color: var(--accent); letter-spacing: -.01em; font-feature-settings: "tnum"; }
+.t-out-value .t-num { font-size: 32px; font-weight: 700; }
+.t-out-value .t-unit { font-size: 14px; color: var(--text-muted); margin-left: 4px; font-weight: 400; }
+
+/* 雙向換算 */
+.t-conv-pair {
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  gap: 16px; align-items: end;
+}
+.t-conv-arrow {
+  font-size: 26px; color: var(--accent); padding-bottom: 10px;
+  text-align: center;
+}
+
+/* 查表 */
+.t-search {
+  margin-bottom: 18px;
+}
+.t-table-wrap {
+  border: 1px solid var(--line-soft); border-radius: var(--radius);
+  overflow: auto; max-height: 480px;
+}
+.t-table {
+  width: 100%; border-collapse: collapse; font-size: 14px;
+}
+.t-table th {
+  background: var(--bg-soft); color: var(--text-soft);
+  padding: 11px 14px; text-align: left; font-weight: 600;
+  position: sticky; top: 0; z-index: 1;
+  border-bottom: 1px solid var(--line);
+}
+.t-table td {
+  padding: 10px 14px; border-bottom: 1px solid var(--line-soft);
+  color: var(--text);
+}
+.t-table tr:hover td { background: var(--bg-soft); }
+.t-table tr:last-child td { border-bottom: none; }
+
+/* 檢核清單 */
+.t-progress-row { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+.t-progress-bar {
+  flex: 1; height: 8px; background: var(--bg-soft);
+  border-radius: 980px; overflow: hidden;
+}
+.t-progress-fill {
+  height: 100%; background: var(--accent);
+  border-radius: 980px; transition: width .3s;
+}
+.t-progress-num {
+  font-size: 13px; color: var(--text-soft); font-weight: 600;
+  font-feature-settings: "tnum"; min-width: 60px; text-align: right;
+}
+.t-check-list { list-style: none; display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; }
+.t-check-item {
+  border-radius: 12px; transition: background .15s;
+}
+.t-check-item:hover { background: var(--bg-soft); }
+.t-check-item.done .t-check-text strong { color: var(--text-light); text-decoration: line-through; }
+.t-check-label {
+  display: flex; gap: 12px; align-items: flex-start;
+  padding: 10px 12px; cursor: pointer;
+}
+.t-check-box {
+  position: absolute; opacity: 0; pointer-events: none;
+}
+.t-check-mark {
+  width: 22px; height: 22px; border-radius: 7px;
+  border: 2px solid var(--line); flex-shrink: 0; margin-top: 2px;
+  display: inline-block; position: relative; transition: all .15s;
+}
+.t-check-box:checked + .t-check-mark {
+  background: var(--accent); border-color: var(--accent);
+}
+.t-check-box:checked + .t-check-mark::after {
+  content: ""; position: absolute; left: 6px; top: 2px;
+  width: 6px; height: 11px;
+  border: solid #fff; border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.t-check-text { display: flex; flex-direction: column; gap: 2px; }
+.t-check-text strong { font-size: 14.5px; font-weight: 500; color: var(--text); }
+.t-check-text small { font-size: 12.5px; color: var(--text-muted); line-height: 1.45; }
+.t-btn-reset {
+  margin-top: 18px; padding: 8px 18px;
+  font-size: 13px; font-weight: 500;
+  color: var(--text-muted);
+  background: transparent; border: 1px solid var(--line);
+  border-radius: 980px; cursor: pointer;
+  transition: all .15s;
+}
+.t-btn-reset:hover { background: var(--bg-soft); color: var(--text); }
+
+/* 參考卡 */
+.t-ref-section {
+  padding-bottom: 22px; margin-bottom: 22px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.t-ref-section:last-child { padding-bottom: 0; margin-bottom: 0; border: none; }
+.t-ref-title {
+  font-size: 16px; font-weight: 600; color: var(--accent);
+  margin-bottom: 10px; letter-spacing: -.005em;
+}
+.t-ref-body {
+  font-size: 15px; color: var(--text-soft); line-height: 1.65;
+}
+.t-ref-body code, .t-ref-body .formula {
+  font-family: "SF Mono", "Menlo", "Monaco", monospace;
+  background: var(--bg-soft); padding: 2px 6px;
+  border-radius: 6px; font-size: 14px; color: var(--accent);
+}
+
+/* note */
+.t-note {
+  margin-top: 20px; padding: 12px 16px;
+  background: var(--bg-soft); border-radius: 12px;
+  font-size: 13px; color: var(--text-muted); line-height: 1.55;
+}
+
+/* ============== 同分類關聯 / 分頁導覽 ============== */
+.related { padding: 60px 22px 40px; background: var(--bg-soft); border-top: 1px solid var(--line-soft); }
+.related-title { text-align: center; font-size: clamp(22px, 2.8vw, 32px); font-weight: 700; letter-spacing: -.02em; margin-bottom: 8px; }
+.related-sub { text-align: center; font-size: 14px; color: var(--text-muted); margin-bottom: 30px; }
+.related-grid {
+  max-width: 1080px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px;
+}
+
+.page-nav {
+  max-width: 1080px; margin: 24px auto 60px; padding: 0 22px;
+  display: grid; grid-template-columns: 1fr auto 1fr; gap: 14px;
+}
+.page-nav-link {
+  display: flex; flex-direction: column; padding: 18px 22px;
+  background: #fff; border: 1px solid var(--line-soft);
+  border-radius: var(--radius); color: var(--text);
+  transition: all .2s; min-height: 70px; justify-content: center;
+}
+.page-nav-link:hover { text-decoration: none; border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.page-nav-link.dim { opacity: .35; pointer-events: none; }
+.page-nav-tag { font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); font-weight: 500; margin-bottom: 4px; }
+.page-nav-name { font-size: 14px; font-weight: 600; color: var(--text); }
+.page-nav-link.next { text-align: right; }
+.page-nav-back {
+  display: flex; align-items: center; justify-content: center;
+  padding: 0 24px; color: var(--accent); font-size: 14px; font-weight: 500;
+  border: 1px solid transparent; border-radius: var(--radius);
+}
+.page-nav-back:hover { background: rgba(0,0,0,.03); text-decoration: none; }
+
+/* ============== 廣告 ============== */
+.ad-slot {
+  max-width: 1080px; margin: 30px auto; padding: 0 22px;
+  display: flex; justify-content: center; min-height: 90px;
+}
+.ad-slot ins { display: block; width: 100%; max-width: 728px; }
+
+/* ============== Footer / Quote ============== */
+.quote-section { padding: 100px 22px; background: var(--bg-soft); text-align: center; }
+.quote {
+  font-family: "Noto Serif TC", Georgia, serif; font-weight: 500;
+  font-size: clamp(24px, 3.4vw, 40px); letter-spacing: -.015em;
+  max-width: 880px; margin: 0 auto 18px; line-height: 1.32; font-style: italic;
+}
+.quote-cite { font-size: 14px; color: var(--text-muted); letter-spacing: .04em; text-transform: uppercase; }
+
+.footer { background: #f5f5f7; color: var(--text-muted); font-size: 12px; padding: 28px 22px 26px; border-top: 1px solid var(--line-soft); }
+.footer-inner { max-width: 1080px; margin: 0 auto; line-height: 1.6; }
+.footer-top {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 14px;
+  padding-bottom: 14px; border-bottom: 1px solid var(--line-soft); margin-bottom: 14px;
+}
+.footer-brand { font-weight: 600; color: var(--text-soft); font-size: 13px; }
+.footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+.footer-links a { color: var(--text-muted); font-size: 12px; }
+.footer-bottom { color: var(--text-light); }
+
+/* ============== 動畫 ============== */
+@keyframes rise { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.rise { animation: rise .7s cubic-bezier(.2,.8,.2,1) both; }
+.rise-1 { animation-delay: .05s; }
+.rise-2 { animation-delay: .12s; }
+.rise-3 { animation-delay: .19s; }
+.rise-4 { animation-delay: .26s; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+/* ============== 響應式 ============== */
+@media (max-width: 768px) {
+  .nav-inner { height: 44px; padding: 0 16px; }
+  .nav-links { gap: 14px; }
+  .nav-links a { font-size: 11.5px; }
+  .hero { padding: 64px 18px 48px; }
+  .mosaic { grid-template-columns: 1fr; padding: 0 12px 12px; }
+  .mosaic .tile-wide { grid-column: span 1; }
+  .tile { padding: 40px 28px; min-height: 380px; }
+  .industry-hero { padding: 76px 18px 56px; }
+  .tools-grid { grid-template-columns: 1fr; padding: 28px 18px 48px; gap: 14px; }
+  .quote-section { padding: 70px 22px; }
+  .footer-top { flex-direction: column; align-items: flex-start; }
+  .tool-hero { padding: 36px 18px 48px; }
+  .t-app { padding: 26px 22px; }
+  .t-inputs { grid-template-columns: 1fr; }
+  .t-conv-pair { grid-template-columns: 1fr; gap: 12px; }
+  .t-conv-arrow { transform: rotate(90deg); padding: 0; }
+  .page-nav { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .hero-cta { flex-direction: column; width: 100%; }
+  .hero-cta .btn { width: 100%; justify-content: center; }
+  .cats { padding: 18px 14px 0; }
+}
+
+/* select / color 補充樣式 */
+.t-select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'><path fill='%23999' d='M6 8L0 0h12z'/></svg>");
+  background-repeat: no-repeat; background-position: right 14px center; background-size: 10px;
+  padding-right: 36px; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+.t-color { padding: 4px; height: 46px; cursor: pointer; }
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0268893833921284" crossorigin="anonymous"></script>
+</head>
+<body class="theme-interior">
+<nav class="nav"><div class="nav-inner">
+  <a href="index.html" class="nav-brand">🛠 500 Tools</a>
+  <div class="nav-links">
+    <a href="arch.html">建築土木</a>
+    <a href="interior.html">室內設計</a>
+    <a href="realestate.html">房地產</a>
+    <a href="landscape.html">景觀園藝</a>
+    <a href="mep.html">機電水電</a>
+  </div>
+</div></nav>
+
+<header class="industry-hero">
+  <div class="industry-hero-content">
+    <div class="industry-num rise rise-1">002</div>
+    <div class="industry-tag rise rise-2">Interior Design</div>
+    <h1 class="hero-title rise rise-3">設計,是看不見的藝術。</h1>
+    <p class="hero-sub rise rise-4">讓空間,會說話。100 個室內設計可用工具,從面積到配色一站搞定。</p>
+  </div>
+</header>
+
+<div class="cats" id="cats" role="tablist"></div>
+<main class="tools-grid" id="tools"></main>
+
+<div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0268893833921284" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+
+<section class="quote-section">
+  <blockquote class="quote">設計不是它看起來的樣子,而是它運作的方式。</blockquote>
+  <div class="quote-cite">STEVE JOBS</div>
+</section>
+
+<footer class="footer"><div class="footer-inner">
+  <div class="footer-top">
+    <div class="footer-brand">🛠 500 Tools · taiwanarch.com</div>
+    <div class="footer-links">
+      <a href="index.html">首頁</a>
+      <a href="arch.html">建築土木</a>
+      <a href="interior.html">室內設計</a>
+      <a href="realestate.html">房地產</a>
+      <a href="landscape.html">景觀園藝</a>
+      <a href="mep.html">機電水電</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 taiwanarch.com · 為效率而存在,為專業而生 · 工具僅供參考,實務應用請以法規與專業判斷為準。</div>
+</div></footer>
+
+<script>/* hub 頁:渲染工具卡片網格 + 分類篩選 */
+(function () {
+  'use strict';
+  const escape = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const pad3 = n => String(n).padStart(3, '0');
+
+  function uniqueCats(tools) {
+    const seen = new Map();
+    tools.forEach(t => seen.set(t.cat, (seen.get(t.cat)||0)+1));
+    return Array.from(seen.entries());
+  }
+
+  window.renderIndustry = function ({ tools, slug, catMount='cats', toolMount='tools' }) {
+    const cm = document.getElementById(catMount);
+    const tm = document.getElementById(toolMount);
+    if (!tm || !Array.isArray(tools)) return;
+
+    if (cm) {
+      const cats = uniqueCats(tools);
+      cm.innerHTML = `<button class="cat is-active" data-cat="__all">全部 <span class="cat-count">${tools.length}</span></button>` +
+        cats.map(([n, c]) => `<button class="cat" data-cat="${escape(n)}">${escape(n)} <span class="cat-count">${c}</span></button>`).join('');
+      cm.addEventListener('click', e => {
+        const btn = e.target.closest('.cat'); if (!btn) return;
+        cm.querySelectorAll('.cat').forEach(b => b.classList.remove('is-active'));
+        btn.classList.add('is-active');
+        const cat = btn.dataset.cat;
+        document.querySelectorAll('.tool').forEach(card => {
+          card.hidden = (cat !== '__all' && card.dataset.cat !== cat);
+        });
+      });
+    }
+
+    tm.innerHTML = tools.map((t, i) => {
+      const num = pad3(t.n || i+1);
+      return `<a class="tool" href="${slug}/${num}.html" data-cat="${escape(t.cat)}">
+        <div class="tool-num">№ ${num}</div>
+        <div class="tool-name">${escape(t.name)}</div>
+        <div class="tool-desc">${escape(t.desc)}</div>
+        <div class="tool-foot"><span class="tool-cat">${escape(t.cat)}</span><span class="tool-go">使用</span></div>
+      </a>`;
+    }).join('');
+  };
+})();
+</script>
+<script>
+window.TOOLS = [{"n":1,"name":"坪數轉平方米","desc":"設計案最常用單位換算","cat":"面積換算"},{"n":2,"name":"平方米轉坪","desc":"反向換算","cat":"面積換算"},{"n":3,"name":"室內坪 vs 權狀","desc":"扣除公設估算","cat":"面積換算"},{"n":4,"name":"房間長方形面積","desc":"由邊長算面積與坪","cat":"面積換算"},{"n":5,"name":"L 型空間面積","desc":"L 型房型面積概算","cat":"面積換算"},{"n":6,"name":"油漆用量(牆面)","desc":"乳膠漆桶數估算","cat":"材料估算"},{"n":7,"name":"天花板油漆","desc":"天花塗料用量","cat":"材料估算"},{"n":8,"name":"地板磁磚片數","desc":"地磚數量估算","cat":"材料估算"},{"n":9,"name":"壁磚片數","desc":"廚衛壁磚估算","cat":"材料估算"},{"n":10,"name":"木地板用量","desc":"超耐磨/實木地板","cat":"材料估算"},{"n":11,"name":"壁紙用量","desc":"壁紙捲數估算","cat":"材料估算"},{"n":12,"name":"窗簾尺寸推薦","desc":"由窗框估窗簾用布","cat":"材料估算"},{"n":13,"name":"踢腳板長度","desc":"踢腳板用料","cat":"材料估算"},{"n":14,"name":"櫃體板材計算","desc":"系統櫃板材片數","cat":"材料估算"},{"n":15,"name":"矽利康用量","desc":"接縫矽利康支數","cat":"材料估算"},{"n":16,"name":"色彩 HEX → RGB","desc":"HEX 轉 RGB","cat":"色彩工具"},{"n":17,"name":"互補色查詢","desc":"色相 H 互補色","cat":"色彩工具"},{"n":18,"name":"類比色組合","desc":"相鄰色相 ±30°","cat":"色彩工具"},{"n":19,"name":"色彩亮度","desc":"從 RGB 算亮度","cat":"色彩工具"},{"n":20,"name":"文字對比度","desc":"WCAG 對比度比例","cat":"色彩工具"},{"n":21,"name":"流明計算(房間)","desc":"由坪數推光通量","cat":"燈光"},{"n":22,"name":"燈具瓦數","desc":"由流明回推 LED 瓦數","cat":"燈光"},{"n":23,"name":"色溫推薦","desc":"場所適合色溫","cat":"燈光"},{"n":24,"name":"吊燈下沿高度","desc":"餐桌吊燈安裝建議","cat":"燈光"},{"n":25,"name":"嵌燈間距","desc":"間距均勻分布","cat":"燈光"},{"n":26,"name":"沙發距牆","desc":"沙發後距牆建議","cat":"家具配置"},{"n":27,"name":"電視距離","desc":"觀看距離建議","cat":"家具配置"},{"n":28,"name":"電視中心高度","desc":"沙發坐姿視線高度","cat":"家具配置"},{"n":29,"name":"餐桌尺寸建議","desc":"由人數推桌長","cat":"家具配置"},{"n":30,"name":"餐桌椅距牆","desc":"拉椅子需要的距離","cat":"家具配置"},{"n":31,"name":"床距牆","desc":"雙人床周邊空間","cat":"家具配置"},{"n":32,"name":"床尺寸對照","desc":"標準床對應尺寸","cat":"家具配置"},{"n":33,"name":"衣櫃深度","desc":"衣櫃內部尺寸","cat":"家具配置"},{"n":34,"name":"鞋櫃容量","desc":"由家庭成員估鞋格數","cat":"家具配置"},{"n":35,"name":"工作椅高度","desc":"由身高推椅高","cat":"家具配置"},{"n":36,"name":"電器尺寸建議","desc":"冰箱對應人數","cat":"家具配置"},{"n":37,"name":"廚房工作三角","desc":"洗 → 切 → 煮 動線","cat":"家具配置"},{"n":38,"name":"玄關尺寸","desc":"建議玄關大小","cat":"動線"},{"n":39,"name":"走道寬度","desc":"主要 / 次要走道","cat":"動線"},{"n":40,"name":"門洞寬度","desc":"室內門尺寸","cat":"動線"},{"n":41,"name":"裝修預算配比","desc":"基本工程占比建議","cat":"預算管理"},{"n":42,"name":"設計費比例","desc":"由案件規模推設計費","cat":"預算管理"},{"n":43,"name":"含稅報價","desc":"未稅 → 含稅 5%","cat":"預算管理"},{"n":44,"name":"分期付款","desc":"裝修分期款","cat":"預算管理"},{"n":45,"name":"管理費佔比","desc":"統包管理費","cat":"預算管理"},{"n":46,"name":"風水座向速查","desc":"由生年算命卦","cat":"風水"},{"n":47,"name":"文公尺吉數","desc":"魯班尺判斷凶吉","cat":"風水"},{"n":48,"name":"安神位高度","desc":"神桌高度建議","cat":"風水"},{"n":49,"name":"招財方位","desc":"流年五行方位速查","cat":"風水"},{"n":50,"name":"風水忌諱檢核","desc":"床位選擇判斷","cat":"風水"},{"n":51,"name":"隔音 STC 對照","desc":"建材組合 STC 速查","cat":"環境"},{"n":52,"name":"通風換氣率","desc":"室內換氣量","cat":"環境"},{"n":53,"name":"採光面積比","desc":"窗 / 樓地板比","cat":"環境"},{"n":54,"name":"甲醛濃度標準","desc":"室內空氣品質判定","cat":"環境"},{"n":55,"name":"室內溫濕度建議","desc":"舒適範圍對照","cat":"環境"},{"n":56,"name":"日照時數估算","desc":"窗戶日照計算","cat":"環境"},{"n":57,"name":"PM2.5 濃度等級","desc":"空氣品質判定","cat":"環境"},{"n":58,"name":"二氧化碳濃度","desc":"室內 CO2 濃度","cat":"環境"},{"n":59,"name":"噪音 dB 對照","desc":"分貝感受對照","cat":"環境"},{"n":60,"name":"螺絲扭力對照","desc":"組裝家具扭力建議","cat":"安裝"},{"n":61,"name":"小家具坪效","desc":"家具空間佔比","cat":"小坪數"},{"n":62,"name":"開窗面積比","desc":"開窗最低面積","cat":"小坪數"},{"n":63,"name":"夾層淨高","desc":"是否可作夾層","cat":"小坪數"},{"n":64,"name":"床上方淨高","desc":"夾層床上方安全高度","cat":"小坪數"},{"n":65,"name":"上下舖距","desc":"安全淨高","cat":"小坪數"},{"n":66,"name":"電視適合尺寸","desc":"由距離推大小","cat":"小坪數"},{"n":67,"name":"折疊餐桌規劃","desc":"折疊桌空間估算","cat":"小坪數"},{"n":68,"name":"延伸沙發深度","desc":"沙發床折疊空間","cat":"小坪數"},{"n":69,"name":"收納櫃容積","desc":"櫃體可收物量","cat":"小坪數"},{"n":70,"name":"陽台外推風險","desc":"是否屬違建警示","cat":"小坪數"},{"n":71,"name":"窗簾盒尺寸","desc":"窗簾盒寬度與深度","cat":"細部尺寸"},{"n":72,"name":"踢腳線高度","desc":"踢腳板建議","cat":"細部尺寸"},{"n":73,"name":"層板承重","desc":"木層板厚度建議","cat":"細部尺寸"},{"n":74,"name":"洗手台高度","desc":"由身高推台面高","cat":"細部尺寸"},{"n":75,"name":"鏡子高度","desc":"浴室鏡子建議","cat":"細部尺寸"},{"n":76,"name":"馬桶距牆","desc":"馬桶旁淨距","cat":"細部尺寸"},{"n":77,"name":"淋浴間尺寸","desc":"獨立淋浴最小","cat":"細部尺寸"},{"n":78,"name":"浴缸尺寸推薦","desc":"由身高推浴缸長度","cat":"細部尺寸"},{"n":79,"name":"開關插座高度","desc":"電工高度建議","cat":"細部尺寸"},{"n":80,"name":"門框尺寸","desc":"標準門框預留","cat":"細部尺寸"},{"n":81,"name":"提案頁數估算","desc":"由設計階段估提案頁","cat":"接案"},{"n":82,"name":"設計時程估算","desc":"由坪數估設計時間","cat":"接案"},{"n":83,"name":"施工排程","desc":"主要工種佔比","cat":"接案"},{"n":84,"name":"客戶報酬率","desc":"案件毛利","cat":"接案"},{"n":85,"name":"設計師時薪","desc":"由收入推時薪","cat":"接案"},{"n":86,"name":"設計案毛利","desc":"設計費 - 直接成本","cat":"接案"},{"n":87,"name":"裝修保固期","desc":"工項保固對照","cat":"接案"},{"n":88,"name":"延宕罰款","desc":"延後交屋違約金","cat":"接案"},{"n":89,"name":"驗收清單分數","desc":"竣工驗收評分","cat":"接案"},{"n":90,"name":"監造費試算","desc":"按工程款比例","cat":"接案"},{"n":91,"name":"報價含稅折讓","desc":"折扣後含稅金額","cat":"接案"},{"n":92,"name":"進度款換算坪","desc":"坪單價回推","cat":"接案"},{"n":93,"name":"工地清運費","desc":"裝修廢棄物清運","cat":"接案"},{"n":94,"name":"進材料保險","desc":"工程險基本保額","cat":"接案"},{"n":95,"name":"設計師退場費","desc":"提前解約違約金","cat":"接案"},{"n":96,"name":"驗收尾款比例","desc":"竣工驗收後尾款","cat":"接案"},{"n":97,"name":"複合材積","desc":"異形角材材積","cat":"細部尺寸"},{"n":98,"name":"系統櫃尺寸計價","desc":"系統板材尺價試算","cat":"預算管理"},{"n":99,"name":"屋齡折舊","desc":"住宅折舊估算","cat":"預算管理"},{"n":100,"name":"重新裝修間隔","desc":"建議翻新週期","cat":"預算管理"}];
+renderIndustry({ tools: window.TOOLS, slug: 'interior' });
+</script>
+</body></html>

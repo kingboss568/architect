@@ -1,0 +1,1333 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <title>建築家CAD Library</title>
+  <meta name="description" content="台灣建築師與建築系學生適用的 AutoCAD DWG 圖庫合輯。4,200+ 圖塊、立面、剖面、牆身詳圖與建築規則素材，付款後即時下載，永久商用授權。">
+  <link rel="canonical" href="https://taiwanarch.jushiung.workers.dev/">
+  <meta property="og:type" content="product">
+  <meta property="og:title" content="建築設計圖庫合輯 | 省下 CAD 整理時間">
+  <meta property="og:description" content="4,200+ AutoCAD DWG 圖塊與建築詳圖，付款後即時下載，永久商用授權。">
+  <meta property="og:url" content="https://taiwanarch.jushiung.workers.dev/">
+  <meta property="og:image" content="https://taiwanarch.jushiung.workers.dev/assets/architect/a2/a2-1.jpg">
+  <meta property="og:locale" content="zh_TW">
+  <meta name="theme-color" content="#101828">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%23101828'/%3E%3Cpath d='M18 76h64' stroke='%23f4a261' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M22 38h56' stroke='%23f4a261' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M50 20l30 18H20z' fill='%23f4a261'/%3E%3Crect x='26' y='42' width='8' height='30' rx='2' fill='%23f4a261'/%3E%3Crect x='38' y='42' width='8' height='30' rx='2' fill='%23f4a261'/%3E%3Crect x='50' y='42' width='8' height='30' rx='2' fill='%23f4a261'/%3E%3Crect x='62' y='42' width='8' height='30' rx='2' fill='%23f4a261'/%3E%3C/svg%3E">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "建築設計圖庫合輯",
+    "description": "4,200+ AutoCAD DWG 圖塊、立面、剖面、牆身詳圖與建築技術規則素材。",
+    "brand": { "@type": "Brand", "name": "taiwanarch.com" },
+    "category": "Architecture CAD Library",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "TWD",
+      "price": "2800",
+      "availability": "https://schema.org/InStock",
+      "url": "https://taiwanarch.jushiung.workers.dev/"
+    }
+  }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #101828;
+      --ink-soft: #344054;
+      --muted: #667085;
+      --line: #d9e0ea;
+      --line-strong: #b7c2d0;
+      --paper: #ffffff;
+      --wash: #f5f8fb;
+      --blueprint: #0d1b2f;
+      --blue: #2563eb;
+      --blue-soft: #eaf1ff;
+      --copper: #c66a2d;
+      --copper-dark: #9f4f1f;
+      --green: #138a61;
+      --radius: 8px;
+      --shadow: 0 18px 48px rgba(16, 24, 40, 0.12);
+      --shadow-soft: 0 10px 28px rgba(16, 24, 40, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.65;
+      letter-spacing: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+    img, svg { display: block; max-width: 100%; }
+    a { color: inherit; }
+    button, input { font: inherit; }
+    .serif { font-family: "Noto Serif TC", "Noto Sans TC", serif; }
+    .container { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 80;
+      border-bottom: 1px solid rgba(217, 224, 234, 0.86);
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+    }
+    .nav-inner {
+      min-height: 66px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      font-weight: 900;
+      color: var(--ink);
+    }
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: var(--ink);
+      display: inline-grid;
+      place-items: center;
+      padding: 5px;
+    }
+    .brand-mark svg {
+      width: 100%;
+      height: 100%;
+      color: #f4a261;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--ink-soft);
+    }
+    .nav-links a {
+      text-decoration: none;
+    }
+    .nav-links a:hover { color: var(--blue); }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      min-height: 44px;
+      padding: 10px 18px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform 160ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+      white-space: nowrap;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary {
+      background: var(--copper);
+      color: #fff;
+      box-shadow: 0 14px 24px rgba(198, 106, 45, 0.22);
+    }
+    .btn-primary:hover { background: var(--copper-dark); }
+    .btn-secondary {
+      background: #fff;
+      color: var(--ink);
+      border-color: var(--line);
+    }
+    .btn-secondary:hover { border-color: var(--blue); color: var(--blue); }
+    .btn-dark {
+      background: var(--ink);
+      color: #fff;
+    }
+    .btn-dark:hover { background: #1f2937; }
+    .btn svg { width: 18px; height: 18px; flex: 0 0 auto; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(245, 248, 251, 0.94) 0%, rgba(245, 248, 251, 0.78) 48%, rgba(255,255,255,0.76) 100%),
+        linear-gradient(rgba(37, 99, 235, 0.07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(37, 99, 235, 0.07) 1px, transparent 1px);
+      background-size: auto, 56px 56px, 56px 56px;
+      border-bottom: 1px solid var(--line);
+    }
+    .hero-grid {
+      min-height: 720px;
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      align-items: center;
+      gap: 54px;
+      padding: 72px 0 58px;
+    }
+    h1 {
+      margin: 0;
+      max-width: 620px;
+      font-size: 58px;
+      line-height: 1.08;
+      font-weight: 900;
+    }
+    .nowrap { white-space: nowrap; }
+    .hero-copy {
+      max-width: 620px;
+      margin: 24px 0 0;
+      color: var(--ink-soft);
+      font-size: 20px;
+      line-height: 1.75;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+    .hero-note {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .proof-strip {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1px;
+      margin-top: 38px;
+      border: 1px solid var(--line);
+      background: var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+    }
+    .proof {
+      min-height: 98px;
+      padding: 18px;
+      background: rgba(255,255,255,0.92);
+    }
+    .proof strong {
+      display: block;
+      font-size: 24px;
+      line-height: 1.2;
+      color: var(--ink);
+    }
+    .proof span {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .hero-visual {
+      position: relative;
+      padding: 18px;
+      border: 1px solid rgba(183, 194, 208, 0.72);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: var(--shadow);
+    }
+    .cad-window {
+      overflow: hidden;
+      border-radius: 8px;
+      background: #050b14;
+      border: 1px solid #263954;
+    }
+    .window-top {
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 0 14px;
+      color: rgba(255,255,255,0.76);
+      font-size: 12px;
+      background: #0c1626;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .window-dots { display: inline-flex; gap: 6px; }
+    .window-dots i {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #667085;
+    }
+    .window-dots i:nth-child(1) { background: #df6b5f; }
+    .window-dots i:nth-child(2) { background: #e2b655; }
+    .window-dots i:nth-child(3) { background: #55b66d; }
+    .cad-image {
+      position: relative;
+      aspect-ratio: 1.34 / 1;
+      background: #050b14;
+      overflow: hidden;
+    }
+    .cad-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.92;
+      filter: contrast(1.04);
+    }
+    .cad-caption {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      padding: 18px;
+      color: #d9e5f7;
+      background: var(--blueprint);
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    .cad-caption b { display: block; font-size: 16px; color: #fff; }
+    .cad-caption span { display: block; color: #a9b8d1; font-size: 13px; }
+    .cad-caption .filetype {
+      align-self: start;
+      padding: 4px 8px;
+      border-radius: 6px;
+      color: #fff;
+      background: rgba(37, 99, 235, 0.62);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .floating-index {
+      position: absolute;
+      left: -26px;
+      bottom: 74px;
+      width: 220px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: var(--shadow-soft);
+    }
+    .floating-index b {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .index-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 7px 0;
+      border-top: 1px solid #edf1f6;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .index-row:first-of-type { border-top: 0; }
+    .index-row em {
+      color: var(--blue);
+      font-style: normal;
+      font-weight: 800;
+    }
+
+    section { scroll-margin-top: 88px; }
+    .section-band { padding: 86px 0; }
+    .section-band.alt { background: var(--wash); }
+    .section-head {
+      display: grid;
+      grid-template-columns: 0.84fr 1fr;
+      gap: 44px;
+      align-items: end;
+      margin-bottom: 38px;
+    }
+    .section-head.center {
+      display: block;
+      max-width: 820px;
+      margin: 0 auto 38px;
+      text-align: center;
+    }
+    h2 {
+      margin: 0;
+      font-size: 42px;
+      line-height: 1.22;
+      font-weight: 900;
+    }
+    .lead {
+      margin: 0;
+      color: var(--ink-soft);
+      font-size: 18px;
+    }
+    .muted { color: var(--muted); }
+
+    .roi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+    .roi-item {
+      min-height: 212px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 8px 18px rgba(16, 24, 40, 0.04);
+    }
+    .roi-item .num {
+      display: block;
+      color: var(--copper);
+      font-size: 34px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+    .roi-item h3 {
+      margin: 18px 0 7px;
+      font-size: 19px;
+      line-height: 1.35;
+    }
+    .roi-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .included {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 34px;
+      align-items: start;
+    }
+    .preview-stack {
+      display: grid;
+      gap: 14px;
+    }
+    .preview-shot {
+      overflow: hidden;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #030712;
+      box-shadow: var(--shadow-soft);
+    }
+    .preview-shot img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+    }
+    .preview-shot figcaption {
+      padding: 12px 14px;
+      color: #d9e5f7;
+      background: var(--blueprint);
+      font-size: 13px;
+    }
+    .scope-list {
+      display: grid;
+      gap: 10px;
+    }
+    .scope-row {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 22px;
+      align-items: start;
+      padding: 18px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .scope-row:first-child { border-top: 1px solid var(--line); }
+    .scope-row b { font-size: 17px; }
+    .scope-row p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .library-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 26px;
+    }
+    .tab {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink-soft);
+      border-radius: 8px;
+      padding: 10px 13px;
+      cursor: pointer;
+      font-weight: 800;
+      font-size: 14px;
+    }
+    .tab.active {
+      border-color: var(--blue);
+      background: var(--blue);
+      color: #fff;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #030712;
+      aspect-ratio: 4 / 3;
+      cursor: zoom-in;
+      padding: 0;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #030712;
+      transition: transform 180ms ease;
+    }
+    .gallery-item:hover img { transform: scale(1.035); }
+    .gallery-item span {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+      padding: 5px 8px;
+      border-radius: 6px;
+      background: rgba(0,0,0,0.64);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      backdrop-filter: blur(6px);
+    }
+
+    .tools-section {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 36px;
+      align-items: center;
+    }
+    .tool-table {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: var(--shadow-soft);
+    }
+    .tool-line {
+      display: grid;
+      grid-template-columns: 82px 1fr auto;
+      gap: 14px;
+      align-items: center;
+      min-height: 64px;
+      padding: 12px 16px;
+      border-top: 1px solid var(--line);
+      text-decoration: none;
+    }
+    .tool-line:first-child { border-top: 0; }
+    .tool-line:hover { background: #f8fbff; }
+    .tool-line code {
+      color: var(--blue);
+      font-weight: 800;
+      font-family: inherit;
+    }
+    .tool-line b { display: block; }
+    .tool-line span { color: var(--muted); font-size: 13px; }
+    .tool-line svg { width: 18px; color: var(--muted); }
+
+    .pricing-wrap {
+      display: grid;
+      grid-template-columns: 0.82fr 1.18fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+    .price-panel, .guarantee-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: var(--shadow-soft);
+    }
+    .price-panel { padding: 30px; }
+    .price-title {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--line);
+    }
+    .price-title h3 {
+      margin: 0 0 7px;
+      font-size: 26px;
+      line-height: 1.25;
+    }
+    .price {
+      text-align: right;
+      white-space: nowrap;
+    }
+    .price strong {
+      display: block;
+      font-size: 42px;
+      line-height: 1;
+      color: var(--copper);
+    }
+    .price s {
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .check-list {
+      display: grid;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 0;
+      list-style: none;
+    }
+    .check-list li {
+      display: grid;
+      grid-template-columns: 24px 1fr;
+      gap: 10px;
+      align-items: start;
+      color: var(--ink-soft);
+    }
+    .check-list li::before {
+      content: "";
+      width: 18px;
+      height: 18px;
+      margin-top: 4px;
+      border-radius: 50%;
+      background:
+        linear-gradient(135deg, transparent 48%, #fff 49%, #fff 58%, transparent 59%),
+        var(--green);
+      transform: rotate(-45deg);
+    }
+    .pay-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 22px;
+    }
+    .pay-actions .wide { grid-column: 1 / -1; }
+    .secure-note {
+      margin: 13px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+    .guarantee-panel {
+      padding: 30px;
+      background:
+        linear-gradient(rgba(13,27,47,0.88), rgba(13,27,47,0.88)),
+        url("https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-3.jpg") center/cover;
+      color: #fff;
+    }
+    .guarantee-panel h3 {
+      margin: 0 0 18px;
+      font-size: 30px;
+      line-height: 1.28;
+    }
+    .guarantee-panel p {
+      color: #d9e5f7;
+      margin: 0 0 18px;
+    }
+    .evidence-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-top: 28px;
+    }
+    .evidence {
+      min-height: 112px;
+      padding: 16px;
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.08);
+    }
+    .evidence b { display: block; font-size: 22px; }
+    .evidence span { color: #bdcce1; font-size: 13px; }
+
+    .faq-list {
+      max-width: 920px;
+      margin: 0 auto;
+      border-top: 1px solid var(--line);
+    }
+    details {
+      border-bottom: 1px solid var(--line);
+      padding: 18px 0;
+    }
+    summary {
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      font-weight: 800;
+      font-size: 18px;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: "+";
+      color: var(--blue);
+      font-size: 24px;
+      line-height: 1;
+    }
+    details[open] summary::after { content: "-"; }
+    details p {
+      max-width: 780px;
+      margin: 12px 0 0;
+      color: var(--muted);
+    }
+
+    .final-cta {
+      padding: 66px 0;
+      background: var(--ink);
+      color: #fff;
+      text-align: center;
+    }
+    .final-cta h2 {
+      max-width: 760px;
+      margin: 0 auto 18px;
+    }
+    .final-cta p {
+      max-width: 700px;
+      margin: 0 auto 26px;
+      color: #c5d1e1;
+      font-size: 18px;
+    }
+
+    .site-footer {
+      padding: 42px 0 88px;
+      background: #fff;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .footer-inner a { color: var(--ink-soft); text-decoration: none; }
+
+    .sticky-buy {
+      position: fixed;
+      z-index: 70;
+      left: 50%;
+      bottom: 16px;
+      transform: translate(-50%, 14px);
+      width: min(620px, calc(100% - 26px));
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 14px;
+      padding: 10px 10px 10px 16px;
+      border: 1px solid rgba(183, 194, 208, 0.9);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.94);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(16px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 180ms ease, transform 180ms ease;
+    }
+    .sticky-buy.show {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translate(-50%, 0);
+    }
+    .sticky-buy b { display: block; line-height: 1.25; }
+    .sticky-buy span { color: var(--muted); font-size: 13px; }
+
+    .lightbox, .modal-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 150;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: rgba(3, 7, 18, 0.86);
+    }
+    .lightbox.show, .modal-overlay.show { display: flex; }
+    .lightbox img {
+      max-width: min(1120px, 92vw);
+      max-height: 82vh;
+      border-radius: 8px;
+      background: #000;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.4);
+    }
+    .close-btn {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      width: 44px;
+      height: 44px;
+      border: 1px solid rgba(255,255,255,0.22);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      cursor: pointer;
+      font-size: 24px;
+    }
+    .modal {
+      width: min(470px, 100%);
+      position: relative;
+      border-radius: 8px;
+      background: #fff;
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+    .modal .close-btn {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 36px;
+      height: 36px;
+      border-color: var(--line);
+      background: #f2f4f7;
+      color: var(--ink);
+      font-size: 20px;
+    }
+    .modal h3 { margin: 0; font-size: 24px; }
+    .modal p { margin: 8px 0 18px; color: var(--muted); }
+    .modal label {
+      display: block;
+      margin-top: 14px;
+      color: var(--ink-soft);
+      font-weight: 800;
+      font-size: 14px;
+    }
+    .modal input[type="email"] {
+      width: 100%;
+      margin-top: 7px;
+      padding: 12px 13px;
+      border: 1px solid var(--line-strong);
+      border-radius: 8px;
+      outline: 0;
+    }
+    .modal input[type="email"]:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+    }
+    .modal .agree {
+      display: grid;
+      grid-template-columns: 20px 1fr;
+      gap: 8px;
+      align-items: start;
+      margin: 14px 0 18px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .modal .error {
+      display: none;
+      color: #b42318;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    .modal .btn { width: 100%; }
+
+    @media (max-width: 1020px) {
+      h1 { font-size: 46px; }
+      .hero-grid, .included, .tools-section, .pricing-wrap {
+        grid-template-columns: 1fr;
+      }
+      .floating-index { display: none; }
+      .proof-strip { grid-template-columns: repeat(3, 1fr); }
+      .roi-grid { grid-template-columns: repeat(2, 1fr); }
+      .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+      .section-head { grid-template-columns: 1fr; gap: 14px; }
+    }
+
+    @media (max-width: 760px) {
+      .container { width: min(100% - 28px, 1180px); }
+      .nav-inner { min-height: 58px; }
+      .brand span:last-child { display: none; }
+      .nav-links a:not(.nav-buy) { display: none; }
+      .hero-grid { min-height: auto; padding: 42px 0; gap: 28px; }
+      h1 { font-size: 34px; }
+      .nowrap { white-space: normal; }
+      h2 { font-size: 31px; }
+      .hero-copy, .lead { font-size: 16px; }
+      .proof-strip { grid-template-columns: 1fr; }
+      .proof { min-height: auto; }
+      .roi-grid, .gallery-grid, .evidence-grid { grid-template-columns: 1fr; }
+      .scope-row { grid-template-columns: 1fr; gap: 6px; }
+      .preview-shot img { height: 230px; }
+      .tool-line { grid-template-columns: 64px 1fr; }
+      .tool-line svg { display: none; }
+      .price-title, .footer-inner {
+        display: block;
+      }
+      .price {
+        margin-top: 18px;
+        text-align: left;
+      }
+      .pay-actions { grid-template-columns: 1fr; }
+      .sticky-buy {
+        grid-template-columns: 1fr;
+      }
+      .sticky-buy .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="主選單">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="建築設計圖庫首頁">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 20h19" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+            <path d="M3.7 8.5h16.6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+            <path d="M12 3l9 5.4H3z" fill="currentColor"/>
+            <rect x="5.2" y="9.8" width="2.5" height="8.7" rx="0.6" fill="currentColor"/>
+            <rect x="9.2" y="9.8" width="2.5" height="8.7" rx="0.6" fill="currentColor"/>
+            <rect x="13.2" y="9.8" width="2.5" height="8.7" rx="0.6" fill="currentColor"/>
+            <rect x="17.2" y="9.8" width="2.5" height="8.7" rx="0.6" fill="currentColor"/>
+          </svg>
+        </span>
+        <span>建築家CAD Library</span>
+      </a>
+      <div class="nav-links">
+        <a href="#included">內容</a>
+        <a href="#gallery">預覽</a>
+        <a href="#tools">工具</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-dark nav-buy" href="#buy">立即購買</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <header class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>省下 80 小時 CAD，<br><span class="nowrap">今晚就能交圖</span></h1>
+          <p class="hero-copy">4,200+ 份 AutoCAD DWG 圖塊、立面、剖面、牆身詳圖與建築規則素材，一次整理好分類、圖層與比例。付款後立即下載，直接放進你的下一個專案。</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" type="button" onclick="openCheckout()">
+              立即購買 NT$2,800
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <a class="btn btn-secondary" href="#gallery">先看圖庫預覽</a>
+          </div>
+          <p class="hero-note">台灣付款支援信用卡、LINE Pay、街口、ATM、超商代碼。海外可使用 Gumroad。</p>
+          <div class="proof-strip" aria-label="產品信任數據">
+            <div class="proof"><strong>第 18 年</strong><span>長期服務建築與室內設計工作者</span></div>
+            <div class="proof"><strong>4,200+</strong><span>DWG 原檔與可編輯素材</span></div>
+            <div class="proof"><strong>多分類</strong><span>依使用情境整理，方便檢索</span></div>
+            <div class="proof"><strong>30 秒</strong><span>付款後寄送下載連結</span></div>
+            <div class="proof"><strong>永久</strong><span>可用於商業專案的授權</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="CAD 圖庫預覽">
+          <div class="cad-window">
+            <div class="window-top">
+              <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span>architect-library/a2/classical-orders.dwg</span>
+            </div>
+            <div class="cad-image">
+              <img src="https://taiwanarch.jushiung.workers.dev/assets/architect/a2/a2-1.jpg" alt="古典建築裝飾元素 DWG 預覽">
+            </div>
+            <div class="cad-caption">
+              <div>
+                <b>真實圖檔預覽，不是示意圖</b>
+                <span>含分類索引、比例樣板、圖層命名與細部大樣</span>
+              </div>
+              <span class="filetype">DWG</span>
+            </div>
+          </div>
+          <div class="floating-index" aria-hidden="true">
+            <b>本包內容索引</b>
+            <div class="index-row"><span>室內立面</span><em>95</em></div>
+            <div class="index-row"><span>結構詳圖</span><em>108</em></div>
+            <div class="index-row"><span>門窗五金</span><em>16</em></div>
+            <div class="index-row"><span>衛浴廚具</span><em>16</em></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-band">
+      <div class="container">
+        <div class="section-head">
+          <h2>不是更多檔案，是更快完成交付</h2>
+          <p class="lead">購買素材時，真正影響成交的是「這能不能馬上用」。新版頁面把省時、相容、授權、付款安全放在最前面，讓訪客不用猜。</p>
+        </div>
+        <div class="roi-grid">
+          <div class="roi-item">
+            <span class="num">01</span>
+            <h3>少找圖，多設計</h3>
+            <p>常用配置、立面、剖面、牆身、五金與設備圖塊集中整理，降低每次開案重複蒐集素材的時間。</p>
+          </div>
+          <div class="roi-item">
+            <span class="num">02</span>
+            <h3>直接放進 CAD</h3>
+            <p>提供 DWG / DXF 相容檔，適用 AutoCAD、ZWCAD、BricsCAD 與多數主流 CAD 工作流。</p>
+          </div>
+          <div class="roi-item">
+            <span class="num">03</span>
+            <h3>可用於商業案</h3>
+            <p>一次買斷永久授權，可用於事務所商業專案、提案、考照練習與教學參考。</p>
+          </div>
+          <div class="roi-item">
+            <span class="num">04</span>
+            <h3>今晚就能下載</h3>
+            <p>信用卡與行動支付完成後，下載連結會寄到 Email，不需要等人工出貨或實體光碟。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band alt" id="included">
+      <div class="container included">
+        <div class="preview-stack">
+          <figure class="preview-shot">
+            <img src="https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-3.jpg" alt="古典柱式大樣圖 DWG 預覽">
+            <figcaption>柱頭、柱身、柱礎四聯詳圖，含完整尺寸標註。</figcaption>
+          </figure>
+          <figure class="preview-shot">
+            <img src="https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-5.jpg" alt="結構詳圖 DWG 預覽">
+            <figcaption>結構與牆身節點可作為施工圖、提案圖與考照練習素材。</figcaption>
+          </figure>
+        </div>
+        <div>
+          <h2>你會拿到一套可工作的建築圖庫</h2>
+          <p class="lead" style="margin-top:14px">完整包不是把圖片堆在一起，而是依建築工作流整理成容易檢索的 CAD 素材庫。</p>
+          <div class="scope-list" style="margin-top:30px">
+            <div class="scope-row"><b>圖例標註</b><p>常用符號、圖例、尺度標註與製圖輔助元素，讓圖面風格更一致。</p></div>
+            <div class="scope-row"><b>門窗五金</b><p>門窗、五金、收邊與細部大樣，適合快速補齊設計與施工圖內容。</p></div>
+            <div class="scope-row"><b>衛浴廚具</b><p>衛浴、廚具、設備、燈具與配置參考，降低平面與立面反覆重畫。</p></div>
+            <div class="scope-row"><b>室內立面</b><p>櫃體、牆面、收納、造型立面與節點，可直接作為專案草圖起點。</p></div>
+            <div class="scope-row"><b>結構詳圖</b><p>RC、SRC、牆身、樓梯、柱梁節點與相關大樣，支援建築與土木溝通。</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band" id="gallery">
+      <div class="container">
+        <div class="section-head center">
+          <h2>先看真實預覽，再決定要不要買</h2>
+          <p class="lead" style="margin-top:14px">這裡精選 36 張圖檔預覽。點擊縮圖可放大，確認細節、線條、分類與圖面風格是否符合你的工作習慣。</p>
+        </div>
+        <div class="library-tabs" id="galleryTabs" aria-label="圖庫分類篩選"></div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section class="section-band alt" id="tools">
+      <div class="container tools-section">
+        <div>
+          <h2>建築500工具箱：建築工作常用計算入口</h2>
+          <p class="lead" style="margin-top:14px">建築500工具箱收錄容積率、建蔽率、配筋與樓梯尺寸等高頻計算工具，讓使用者先完成快速估算，再依需求導回圖庫挑選可直接使用的 CAD 素材。</p>
+          <div class="hero-actions">
+            <a class="btn btn-secondary" href="https://www.taiwanarch.com/500tools/arch.html" target="_blank" rel="noopener">前往 500tools 建築工具</a>
+            <a class="btn btn-primary" href="#buy">從工具導回圖庫購買</a>
+          </div>
+        </div>
+        <div class="tool-table" aria-label="建築工具清單">
+          <a class="tool-line" href="https://www.taiwanarch.com/500tools/arch/001.html" target="_blank" rel="noopener"><code>001</code><span><b>容積率計算</b><span>各分區基準容積率即時試算</span></span><svg viewBox="0 0 24 24"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+          <a class="tool-line" href="https://www.taiwanarch.com/500tools/arch/002.html" target="_blank" rel="noopener"><code>002</code><span><b>建蔽率檢核</b><span>輸入用地面積即得允許值</span></span><svg viewBox="0 0 24 24"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+          <a class="tool-line" href="https://www.taiwanarch.com/500tools/arch/004.html" target="_blank" rel="noopener"><code>004</code><span><b>結構配筋估算</b><span>梁柱主筋與箍筋速算</span></span><svg viewBox="0 0 24 24"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+          <a class="tool-line" href="https://www.taiwanarch.com/500tools/arch/008.html" target="_blank" rel="noopener"><code>008</code><span><b>樓梯尺寸檢核</b><span>級高、級深、淨寬一次驗</span></span><svg viewBox="0 0 24 24"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band" id="buy">
+      <div class="container">
+        <div class="section-head center">
+          <h2>一次買斷，下一個案子就開始省時間</h2>
+          <p class="lead" style="margin-top:14px">把價值、價格、付款與授權放在同一個視窗內，減少跳出與猶豫。</p>
+        </div>
+        <div class="pricing-wrap">
+          <div class="price-panel">
+            <div class="price-title">
+              <div>
+                <h3>建築設計圖庫合輯</h3>
+                <span class="muted">4,200+ DWG / DXF · 永久商用授權</span>
+              </div>
+              <div class="price">
+                <strong>NT$2,800</strong>
+                <s>NT$4,200</s>
+              </div>
+            </div>
+            <ul class="check-list">
+              <li>付款完成後，下載連結寄送至你的 Email。</li>
+              <li>可用於事務所商業專案、設計提案、考照練習與教學參考。</li>
+              <li>依類型整理分類，含圖例、門窗、衛浴、室內立面、結構詳圖。</li>
+              <li>支援台灣 ECPay 與海外 Gumroad 購買方式。</li>
+            </ul>
+            <div class="pay-actions">
+              <button class="btn btn-primary wide" type="button" onclick="openCheckout()">台灣付款並下載</button>
+              <button class="btn btn-secondary" type="button" onclick="openCheckout()">信用卡 / LINE Pay</button>
+              <button class="btn btn-secondary" type="button" onclick="buyInternational()">International</button>
+            </div>
+            <p class="secure-note">SSL 加密 · ECPay 綠界金流 · 下載連結 7 天內可重新下載</p>
+          </div>
+
+          <div class="guarantee-panel">
+            <h3>把「可以馬上用」放在購買前就證明給客戶看</h3>
+            <p>新版頁面把圖檔預覽、授權、付款方式與下載時程全部前置，讓訪客不需要滑到底才知道這是不是自己要的素材。</p>
+            <p>對建築師、事務所與學生來說，最強的購買理由不是便宜，而是今天就能少重畫、少整理、少找資料。</p>
+            <div class="evidence-grid">
+              <div class="evidence"><b>1,800+</b><span>事務所與設計工作者使用情境</span></div>
+              <div class="evidence"><b>3,400+</b><span>建築系學生與考照練習情境</span></div>
+              <div class="evidence"><b>276</b><span>原站既有可預覽樣本</span></div>
+              <div class="evidence"><b>5</b><span>購買疑慮在結帳前先回答</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band alt" id="faq">
+      <div class="container">
+        <div class="section-head center">
+          <h2>常見問題</h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>付款後多久可以下載？</summary>
+            <p>信用卡、LINE Pay、街口等付款成功後，系統會將下載連結寄到 Email。ATM 或超商代碼會在入帳後寄送。</p>
+          </details>
+          <details>
+            <summary>適用哪些 CAD 軟體？</summary>
+            <p>素材以 DWG / DXF 為主，可用於 AutoCAD、AutoCAD LT、ZWCAD、BricsCAD、DraftSight 等常見 CAD 工作流。</p>
+          </details>
+          <details>
+            <summary>可以用在商業專案嗎？</summary>
+            <p>可以。購買後可在你的事務所與專案中使用，但不可將圖庫本身重新包裝轉售或公開散佈。</p>
+          </details>
+          <details>
+            <summary>如果下載連結過期怎麼辦？</summary>
+            <p>下載後建議保存到自己的硬碟或雲端。若連結過期，可透過購買 Email 聯絡客服協助補發。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <h2>下一次交圖，不要再從空白 CAD 開始</h2>
+        <p>今天買，今天下載。把重複整理素材的時間，還給真正的設計判斷。</p>
+        <button class="btn btn-primary" type="button" onclick="openCheckout()">立即購買 NT$2,800</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2008-2026 taiwanarch.com · 建築設計圖庫合輯</span>
+      <span><a href="mailto:support@taiwanarch.com">support@taiwanarch.com</a> · <a href="#faq">FAQ</a> · <a href="#buy">購買</a></span>
+    </div>
+  </footer>
+
+  <div class="sticky-buy" role="region" aria-label="快速購買">
+    <div>
+      <b>建築設計圖庫合輯 NT$2,800</b>
+      <span>4,200+ DWG · 付款後即時下載</span>
+    </div>
+    <button class="btn btn-primary" type="button" onclick="openCheckout()">立即購買</button>
+  </div>
+
+  <div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLightbox()">
+    <button class="close-btn" type="button" onclick="closeLightbox()" aria-label="關閉預覽">×</button>
+    <img id="lightboxImage" src="" alt="放大的圖庫預覽">
+  </div>
+
+  <div class="modal-overlay" id="checkoutModal" onclick="if(event.target===this)closeCheckout()">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <button class="close-btn" type="button" onclick="closeCheckout()" aria-label="關閉結帳">×</button>
+      <h3 id="checkoutTitle">前往綠界 ECPay 付款</h3>
+      <p>建築設計圖庫合輯 · NT$2,800 · 下載連結將寄到你的 Email。</p>
+      <label for="buyerEmail">Email</label>
+      <input id="buyerEmail" type="email" autocomplete="email" placeholder="your@email.com">
+      <label class="agree"><input id="buyerAgree" type="checkbox" checked> <span>我已閱讀並同意下載授權；付款完成後可用於商業專案，但不可轉售圖庫檔案本身。</span></label>
+      <button class="btn btn-primary" type="button" id="ecpayButton" onclick="submitEcpay()">前往綠界付款</button>
+      <div class="error" id="checkoutError"></div>
+      <p style="font-size:12px;text-align:center;margin-bottom:0">綠界科技 · SSL · PCI-DSS · 接續至 ecpay.com.tw</p>
+    </div>
+  </div>
+
+  <script>
+    const ASSET_BASE = "https://taiwanarch.jushiung.workers.dev/";
+    const PAYMENT_CONFIG = {
+      WORKER_URL: "https://taiwanarch-payment.jushiung.workers.dev",
+      PRODUCT_ID: "architect",
+      GUMROAD_URL: "https://caddesigner.gumroad.com/l/architect-pro"
+    };
+
+    const gallery = [
+      ["assets/architect/a1/sshot-1.jpg", "圖例標註", "a1"],
+      ["assets/architect/a1/sshot-4.jpg", "圖例標註", "a1"],
+      ["assets/architect/a2/a2-1.jpg", "古典裝飾", "a2"],
+      ["assets/architect/a2/a2-5.jpg", "古典裝飾", "a2"],
+      ["assets/architect/a3/sshot-1.jpg", "門窗五金", "a3"],
+      ["assets/architect/a3/sshot-6.jpg", "門窗五金", "a3"],
+      ["assets/architect/a4/sshot-2.jpg", "燈具設備", "a4"],
+      ["assets/architect/a8/sshot-5.jpg", "燈具設備", "a8"],
+      ["assets/architect/a5/sshot-1.jpg", "衛浴廚具", "a5"],
+      ["assets/architect/a9/sshot-4.jpg", "衛浴廚具", "a9"],
+      ["assets/architect/a7/sshot-1.jpg", "牆身詳圖", "a7"],
+      ["assets/architect/a7/sshot-9.jpg", "牆身詳圖", "a7"],
+      ["assets/architect/b1-1/sshot-2.jpg", "室內立面", "b1-1"],
+      ["assets/architect/b1-2/sshot-5.jpg", "室內立面", "b1-2"],
+      ["assets/architect/b1-3/sshot-10.jpg", "室內立面", "b1-3"],
+      ["assets/architect/b2-1/sshot-4.jpg", "室內立面", "b2-1"],
+      ["assets/architect/b2-2/sshot-8.jpg", "室內立面", "b2-2"],
+      ["assets/architect/b3/sshot-11.jpg", "室內立面", "b3"],
+      ["assets/architect/b4-1/sshot-3.jpg", "室內立面", "b4-1"],
+      ["assets/architect/b4-2/sshot-7.jpg", "室內立面", "b4-2"],
+      ["assets/architect/b5/sshot-8.jpg", "室內立面", "b5"],
+      ["assets/architect/b6-1/sshot-4.jpg", "室內立面", "b6-1"],
+      ["assets/architect/b6-2/sshot-8.jpg", "室內立面", "b6-2"],
+      ["assets/architect/b7-1/sshot-5.jpg", "結構詳圖", "b7-1"],
+      ["assets/architect/b7-1/sshot-13.jpg", "結構詳圖", "b7-1"],
+      ["assets/architect/b7-2/sshot-3.jpg", "結構詳圖", "b7-2"],
+      ["assets/architect/b8-1/sshot-6.jpg", "結構詳圖", "b8-1"],
+      ["assets/architect/b8-2/sshot-4.jpg", "結構詳圖", "b8-2"],
+      ["assets/architect/b9/sshot-3.jpg", "結構詳圖", "b9"],
+      ["assets/architect/b9/sshot-12.jpg", "結構詳圖", "b9"],
+      ["assets/architect/b10/sshot-10.jpg", "結構詳圖", "b10"],
+      ["assets/architect/b11/sshot-2.jpg", "結構詳圖", "b11"],
+      ["assets/architect/b11/sshot-12.jpg", "結構詳圖", "b11"],
+      ["assets/architect/b12/sshot-7.jpg", "結構詳圖", "b12"],
+      ["assets/architect/b13-1/sshot-4.jpg", "結構詳圖", "b13-1"],
+      ["assets/architect/b13-2/sshot-10.jpg", "結構詳圖", "b13-2"]
+    ];
+
+    function asset(path) {
+      return ASSET_BASE + path;
+    }
+
+    function buildGalleryTabs() {
+      const categories = ["全部", ...Array.from(new Set(gallery.map(item => item[1])))];
+      const tabs = document.getElementById("galleryTabs");
+      tabs.innerHTML = categories.map((cat, index) =>
+        `<button class="tab${index === 0 ? " active" : ""}" type="button" data-cat="${cat}">${cat}</button>`
+      ).join("");
+      tabs.addEventListener("click", event => {
+        const button = event.target.closest("button");
+        if (!button) return;
+        tabs.querySelectorAll(".tab").forEach(tab => tab.classList.remove("active"));
+        button.classList.add("active");
+        renderGallery(button.dataset.cat);
+      });
+    }
+
+    function renderGallery(category = "全部") {
+      const grid = document.getElementById("galleryGrid");
+      const list = category === "全部" ? gallery : gallery.filter(item => item[1] === category);
+      grid.innerHTML = list.map((item, index) => `
+        <button class="gallery-item" type="button" onclick="openLightbox('${item[0]}')" aria-label="放大 ${item[1]} ${item[2]} 預覽">
+          <img src="${asset(item[0])}" alt="${item[1]} ${item[2]} DWG 預覽" loading="${index < 6 ? "eager" : "lazy"}">
+          <span>${item[1]} · ${item[2]}</span>
+        </button>
+      `).join("");
+    }
+
+    function openLightbox(path) {
+      document.getElementById("lightboxImage").src = asset(path);
+      document.getElementById("lightbox").classList.add("show");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox() {
+      document.getElementById("lightbox").classList.remove("show");
+      document.getElementById("lightboxImage").src = "";
+      document.body.style.overflow = "";
+    }
+
+    function openCheckout() {
+      const modal = document.getElementById("checkoutModal");
+      modal.classList.add("show");
+      document.body.style.overflow = "hidden";
+      setTimeout(() => document.getElementById("buyerEmail").focus(), 80);
+    }
+
+    function closeCheckout() {
+      document.getElementById("checkoutModal").classList.remove("show");
+      document.body.style.overflow = "";
+    }
+
+    function buyInternational() {
+      window.location.href = PAYMENT_CONFIG.GUMROAD_URL + "?wanted=true";
+    }
+
+    async function submitEcpay() {
+      const email = document.getElementById("buyerEmail").value.trim();
+      const agree = document.getElementById("buyerAgree").checked;
+      const error = document.getElementById("checkoutError");
+      const button = document.getElementById("ecpayButton");
+      error.style.display = "none";
+
+      if (!email || !/.+@.+\..+/.test(email)) {
+        error.textContent = "請輸入有效的 Email。";
+        error.style.display = "block";
+        return;
+      }
+      if (!agree) {
+        error.textContent = "請先勾選同意下載授權。";
+        error.style.display = "block";
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = "處理中...";
+      try {
+        const resp = await fetch(PAYMENT_CONFIG.WORKER_URL + "/api/ecpay/sign", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ productId: PAYMENT_CONFIG.PRODUCT_ID, email })
+        });
+        if (!resp.ok) throw new Error("伺服器暫時無法建立訂單");
+        const data = await resp.json();
+        if (data.error) throw new Error(data.error);
+        if (!data.action || !data.params) throw new Error("付款資料格式不完整");
+
+        const form = document.createElement("form");
+        form.method = "POST";
+        form.action = data.action;
+        form.acceptCharset = "UTF-8";
+        Object.entries(data.params).forEach(([name, value]) => {
+          const input = document.createElement("input");
+          input.type = "hidden";
+          input.name = name;
+          input.value = value;
+          form.appendChild(input);
+        });
+        document.body.appendChild(form);
+        form.submit();
+      } catch (err) {
+        error.textContent = "結帳失敗：" + err.message + "。請稍後再試或聯絡客服。";
+        error.style.display = "block";
+        button.disabled = false;
+        button.textContent = "前往綠界付款";
+      }
+    }
+
+    document.addEventListener("keydown", event => {
+      if (event.key !== "Escape") return;
+      closeLightbox();
+      closeCheckout();
+    });
+
+    function updateStickyBuy() {
+      const sticky = document.querySelector(".sticky-buy");
+      const buySection = document.getElementById("buy");
+      const buyTop = buySection.getBoundingClientRect().top + window.scrollY;
+      const shouldShow = window.scrollY > 360 && window.scrollY < buyTop - 260;
+      sticky.classList.toggle("show", shouldShow);
+    }
+
+    buildGalleryTabs();
+    renderGallery();
+    updateStickyBuy();
+    window.addEventListener("scroll", updateStickyBuy, { passive: true });
+  </script>
+</body>
+</html>

@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>雨水回收容量 · 景觀園藝 № 020 · 500 Tools</title>
+<meta name="description" content="年雨水可收量">
+<meta name="theme-color" content="#fbfbfd">
+<meta property="og:title" content="雨水回收容量 · 景觀園藝 № 020 · 500 Tools">
+<meta property="og:description" content="年雨水可收量">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠</text></svg>">
+<style>/* ============================================================
+   500 TOOLS · Apple Store 美學 + 工具操作 UI
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;900&family=Noto+Serif+TC:wght@500;700;900&display=swap');
+
+:root {
+  --bg: #fbfbfd; --bg-soft: #f5f5f7; --bg-section: #ffffff;
+  --text: #1d1d1f; --text-soft: #424245; --text-muted: #6e6e73; --text-light: #86868b;
+  --accent: #0071e3; --accent-hover: #0077ed;
+  --line: #d2d2d7; --line-soft: #e8e8ed;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.04);
+  --shadow-md: 0 8px 24px rgba(0,0,0,.06);
+  --shadow-lg: 0 24px 60px rgba(0,0,0,.10);
+  --radius-sm: 12px; --radius: 18px; --radius-lg: 28px;
+  --c-arch:#1d6cf3; --c-interior:#b8895a; --c-realestate:#007a55; --c-landscape:#2d6a4f; --c-mep:#ff6b00;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+               "Helvetica Neue", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.47;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -.003em;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ============== 導覽列 ============== */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(251,251,253,.72);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.nav-inner {
+  max-width: 1080px; margin: 0 auto; padding: 0 22px;
+  height: 48px; display: flex; align-items: center; justify-content: space-between;
+}
+.nav-brand { font-weight: 600; color: var(--text); font-size: 14px; letter-spacing: -.01em; }
+.nav-brand:hover { text-decoration: none; opacity: .8; }
+.nav-links { display: flex; gap: 28px; align-items: center; }
+.nav-links a {
+  color: var(--text); font-size: 12.5px; opacity: .9;
+  transition: opacity .18s; white-space: nowrap;
+}
+.nav-links a:hover { text-decoration: none; opacity: 1; color: var(--accent); }
+.container { max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+
+/* ============== Hero ============== */
+.hero { text-align: center; padding: 96px 22px 72px; }
+.hero-eyebrow { font-size: 18px; color: var(--text-muted); margin-bottom: 14px; }
+.hero-title {
+  font-size: clamp(44px, 7vw, 88px); font-weight: 700;
+  line-height: 1.04; letter-spacing: -.02em; margin-bottom: 18px;
+}
+.hero-title .accent {
+  background: linear-gradient(135deg, #ff6b00, #ff2e88, #7e3aff, #00a3ff);
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.hero-sub {
+  font-size: clamp(20px, 2.4vw, 28px); color: var(--text-soft);
+  max-width: 760px; margin: 0 auto 28px; line-height: 1.32;
+}
+.hero-cta { display: inline-flex; gap: 14px; flex-wrap: wrap; justify-content: center; margin-top: 22px; }
+
+/* ============== 按鈕 ============== */
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 11px 24px; border-radius: 980px;
+  font-size: 14.5px; font-weight: 400;
+  border: none; cursor: pointer; text-decoration: none; white-space: nowrap;
+  transition: all .2s;
+}
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { background: var(--accent-hover); text-decoration: none; }
+.btn-ghost { background: transparent; color: var(--accent); }
+.btn-ghost:hover { text-decoration: underline; }
+.btn-arrow::after { content: " ›"; }
+.btn-lg { padding: 14px 30px; font-size: 16px; }
+
+/* ============== 主入口磚塊 ============== */
+.mosaic {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+  padding: 0 12px 12px; max-width: 1280px; margin: 0 auto;
+}
+.mosaic .tile-wide { grid-column: span 2; }
+.tile {
+  position: relative; border-radius: var(--radius-lg); overflow: hidden;
+  padding: 56px 44px; min-height: 480px;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  background: var(--bg-soft); cursor: pointer;
+  transition: transform .35s, box-shadow .35s;
+}
+.tile:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); text-decoration: none; }
+.tile-eyebrow { font-size: 14px; font-weight: 600; color: var(--text-muted); letter-spacing: .04em; text-transform: uppercase; margin-bottom: 8px; }
+.tile-title { font-size: clamp(32px, 3.6vw, 48px); font-weight: 700; line-height: 1.08; letter-spacing: -.02em; color: var(--text); margin-bottom: 10px; }
+.tile-sub { font-size: 19px; color: var(--text-soft); max-width: 460px; margin-bottom: 22px; line-height: 1.32; }
+.tile-cta { font-size: 15px; color: var(--accent); }
+.tile-deco { margin-top: auto; font-size: clamp(80px, 12vw, 180px); font-weight: 800; line-height: .9; letter-spacing: -.04em; opacity: .92; }
+.tile-arch       { background: linear-gradient(160deg, #eef3ff 0%, #d6e2ff 100%); }
+.tile-arch       .tile-deco { color: var(--c-arch); }
+.tile-interior   { background: linear-gradient(160deg, #fbf4ea 0%, #f0dfc6 100%); }
+.tile-interior   .tile-deco { color: var(--c-interior); }
+.tile-realestate { background: linear-gradient(160deg, #e9f7f1 0%, #c6e8d8 100%); }
+.tile-realestate .tile-deco { color: var(--c-realestate); }
+.tile-landscape  { background: linear-gradient(160deg, #ecf5ec 0%, #ccdfd0 100%); }
+.tile-landscape  .tile-deco { color: var(--c-landscape); }
+.tile-mep        { background: linear-gradient(160deg, #fff1e6 0%, #ffd9b8 100%); }
+.tile-mep        .tile-deco { color: var(--c-mep); }
+
+.section { padding: 96px 22px; background: var(--bg-section); border-top: 1px solid var(--line-soft); }
+.section-alt { background: var(--bg-soft); }
+.section-title { font-size: clamp(36px, 4.5vw, 56px); font-weight: 700; letter-spacing: -.02em; text-align: center; margin-bottom: 14px; }
+.section-sub { font-size: clamp(17px, 1.6vw, 21px); color: var(--text-muted); text-align: center; margin-bottom: 56px; max-width: 720px; margin-left: auto; margin-right: auto; }
+
+/* ============== 行業 hub Hero ============== */
+.industry-hero { text-align: center; padding: 110px 22px 80px; position: relative; overflow: hidden; }
+.industry-hero::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at top, var(--accent-soft, rgba(29,108,243,.08)) 0%, transparent 60%);
+  pointer-events: none;
+}
+.industry-hero-content { position: relative; z-index: 1; }
+.industry-num {
+  display: inline-block;
+  font-size: clamp(120px, 18vw, 220px); font-weight: 800;
+  letter-spacing: -.05em; line-height: .9; margin-bottom: 12px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-soft, var(--accent)));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.industry-tag {
+  display: inline-block; background: rgba(255,255,255,.7);
+  border: 1px solid var(--line); padding: 6px 14px; border-radius: 980px;
+  font-size: 13px; color: var(--text-soft); margin-bottom: 18px; font-weight: 500;
+}
+
+/* ============== 分類 pill ============== */
+.cats { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; padding: 24px 22px 0; max-width: 1080px; margin: 0 auto; }
+.cat { padding: 7px 16px; border-radius: 980px; background: var(--bg-soft); color: var(--text-soft); font-size: 13.5px; font-weight: 500; cursor: pointer; border: 1px solid transparent; transition: all .18s; user-select: none; }
+.cat:hover { background: #ececef; }
+.cat.is-active { background: var(--text); color: #fff; }
+.cat-count { display: inline-block; margin-left: 6px; opacity: .55; font-size: 12px; }
+
+/* ============== 工具卡片網格 ============== */
+.tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; padding: 40px 22px 60px; max-width: 1080px; margin: 0 auto; }
+.tool {
+  background: #fff; border-radius: var(--radius);
+  padding: 24px 22px; border: 1px solid var(--line-soft);
+  transition: all .25s; display: flex; flex-direction: column;
+  text-decoration: none; color: inherit; min-height: 168px;
+}
+.tool:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: var(--line); text-decoration: none; }
+.tool-num { font-size: 11px; font-weight: 600; color: var(--text-light); letter-spacing: .08em; margin-bottom: 8px; }
+.tool-name { font-size: 18px; font-weight: 600; color: var(--text); letter-spacing: -.01em; margin-bottom: 6px; }
+.tool-desc { font-size: 13.5px; color: var(--text-muted); line-height: 1.45; margin-bottom: 14px; flex: 1; }
+.tool-foot { display: flex; justify-content: space-between; align-items: center; font-size: 12px; }
+.tool-cat { font-weight: 500; color: var(--text-soft); }
+.tool-go { color: var(--accent); font-weight: 500; font-size: 13px; }
+.tool-go::after { content: " ›"; }
+.tool[hidden] { display: none !important; }
+
+.theme-arch       { --accent: #1d6cf3; --accent-hover: #0d5cd9; --accent-soft: #d6e2ff; --accent-bg: #eef3ff; }
+.theme-interior   { --accent: #b8895a; --accent-hover: #9c7244; --accent-soft: #f0dfc6; --accent-bg: #fbf4ea; }
+.theme-realestate { --accent: #007a55; --accent-hover: #00604a; --accent-soft: #c6e8d8; --accent-bg: #e9f7f1; }
+.theme-landscape  { --accent: #2d6a4f; --accent-hover: #1f5040; --accent-soft: #ccdfd0; --accent-bg: #ecf5ec; }
+.theme-mep        { --accent: #ff6b00; --accent-hover: #e25c00; --accent-soft: #ffd9b8; --accent-bg: #fff1e6; }
+
+/* ============== 工具分頁 hero ============== */
+.breadcrumb {
+  max-width: 1080px; margin: 0 auto; padding: 18px 22px 0;
+  font-size: 13px; color: var(--text-muted);
+  display: flex; gap: 8px; align-items: center;
+}
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb a:hover { color: var(--accent); text-decoration: none; }
+.breadcrumb .sep { color: var(--text-light); opacity: .6; }
+.breadcrumb .current { color: var(--text); }
+
+.tool-hero {
+  text-align: center; padding: 50px 22px 60px;
+  background: linear-gradient(180deg, var(--accent-bg, #f5f5f7) 0%, var(--bg) 75%);
+}
+.tool-num-big {
+  font-size: clamp(80px, 14vw, 160px); font-weight: 800;
+  letter-spacing: -.06em; line-height: .85;
+  background: linear-gradient(180deg, var(--accent), var(--accent-soft));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  margin-bottom: 14px;
+}
+.tool-cat-pill {
+  display: inline-block; background: rgba(255,255,255,.85);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border: 1px solid var(--line); padding: 6px 14px;
+  border-radius: 980px; font-size: 12px; color: var(--accent);
+  margin-bottom: 18px; font-weight: 600; letter-spacing: .02em;
+}
+.tool-h1 {
+  font-size: clamp(32px, 5vw, 56px); font-weight: 700;
+  letter-spacing: -.025em; line-height: 1.05; margin-bottom: 16px;
+  max-width: 920px; margin-left: auto; margin-right: auto;
+}
+.tool-h1-sub {
+  font-size: clamp(16px, 1.7vw, 19px); color: var(--text-soft);
+  max-width: 680px; margin: 0 auto; line-height: 1.5;
+}
+
+/* ============================================================
+   工具操作區 UI (核心)
+   ============================================================ */
+.tool-app-wrap {
+  max-width: 720px; margin: 0 auto; padding: 30px 22px 50px;
+}
+.t-app {
+  background: #fff; border: 1px solid var(--line-soft);
+  border-radius: var(--radius-lg); padding: 36px 30px;
+  box-shadow: var(--shadow-md);
+}
+
+/* 計算機 inputs */
+.t-inputs {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px; margin-bottom: 28px;
+}
+.t-field { display: flex; flex-direction: column; gap: 6px; }
+.t-label {
+  font-size: 13px; color: var(--text-muted); font-weight: 500;
+  display: flex; align-items: center; gap: 8px;
+}
+.t-unit-tag {
+  font-size: 11px; color: var(--text-light);
+  background: var(--bg-soft); padding: 1px 7px; border-radius: 6px;
+}
+.t-input {
+  width: 100%; padding: 12px 14px;
+  font-size: 16px; font-family: inherit; color: var(--text);
+  border: 1px solid var(--line); border-radius: 12px;
+  background: #fff; outline: none;
+  transition: border-color .15s, box-shadow .15s;
+  -webkit-appearance: none; -moz-appearance: textfield;
+}
+.t-input::-webkit-outer-spin-button, .t-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.t-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+/* 結果輸出 */
+.t-outputs {
+  background: var(--accent-bg, var(--bg-soft));
+  border-radius: var(--radius); padding: 22px 26px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.t-out-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding-bottom: 12px; border-bottom: 1px dashed rgba(0,0,0,.08);
+}
+.t-out-row:last-child { padding-bottom: 0; border-bottom: none; }
+.t-out-label { font-size: 14px; color: var(--text-soft); font-weight: 500; }
+.t-out-value { font-size: 28px; font-weight: 600; color: var(--accent); letter-spacing: -.01em; font-feature-settings: "tnum"; }
+.t-out-value .t-num { font-size: 32px; font-weight: 700; }
+.t-out-value .t-unit { font-size: 14px; color: var(--text-muted); margin-left: 4px; font-weight: 400; }
+
+/* 雙向換算 */
+.t-conv-pair {
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  gap: 16px; align-items: end;
+}
+.t-conv-arrow {
+  font-size: 26px; color: var(--accent); padding-bottom: 10px;
+  text-align: center;
+}
+
+/* 查表 */
+.t-search {
+  margin-bottom: 18px;
+}
+.t-table-wrap {
+  border: 1px solid var(--line-soft); border-radius: var(--radius);
+  overflow: auto; max-height: 480px;
+}
+.t-table {
+  width: 100%; border-collapse: collapse; font-size: 14px;
+}
+.t-table th {
+  background: var(--bg-soft); color: var(--text-soft);
+  padding: 11px 14px; text-align: left; font-weight: 600;
+  position: sticky; top: 0; z-index: 1;
+  border-bottom: 1px solid var(--line);
+}
+.t-table td {
+  padding: 10px 14px; border-bottom: 1px solid var(--line-soft);
+  color: var(--text);
+}
+.t-table tr:hover td { background: var(--bg-soft); }
+.t-table tr:last-child td { border-bottom: none; }
+
+/* 檢核清單 */
+.t-progress-row { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+.t-progress-bar {
+  flex: 1; height: 8px; background: var(--bg-soft);
+  border-radius: 980px; overflow: hidden;
+}
+.t-progress-fill {
+  height: 100%; background: var(--accent);
+  border-radius: 980px; transition: width .3s;
+}
+.t-progress-num {
+  font-size: 13px; color: var(--text-soft); font-weight: 600;
+  font-feature-settings: "tnum"; min-width: 60px; text-align: right;
+}
+.t-check-list { list-style: none; display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; }
+.t-check-item {
+  border-radius: 12px; transition: background .15s;
+}
+.t-check-item:hover { background: var(--bg-soft); }
+.t-check-item.done .t-check-text strong { color: var(--text-light); text-decoration: line-through; }
+.t-check-label {
+  display: flex; gap: 12px; align-items: flex-start;
+  padding: 10px 12px; cursor: pointer;
+}
+.t-check-box {
+  position: absolute; opacity: 0; pointer-events: none;
+}
+.t-check-mark {
+  width: 22px; height: 22px; border-radius: 7px;
+  border: 2px solid var(--line); flex-shrink: 0; margin-top: 2px;
+  display: inline-block; position: relative; transition: all .15s;
+}
+.t-check-box:checked + .t-check-mark {
+  background: var(--accent); border-color: var(--accent);
+}
+.t-check-box:checked + .t-check-mark::after {
+  content: ""; position: absolute; left: 6px; top: 2px;
+  width: 6px; height: 11px;
+  border: solid #fff; border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.t-check-text { display: flex; flex-direction: column; gap: 2px; }
+.t-check-text strong { font-size: 14.5px; font-weight: 500; color: var(--text); }
+.t-check-text small { font-size: 12.5px; color: var(--text-muted); line-height: 1.45; }
+.t-btn-reset {
+  margin-top: 18px; padding: 8px 18px;
+  font-size: 13px; font-weight: 500;
+  color: var(--text-muted);
+  background: transparent; border: 1px solid var(--line);
+  border-radius: 980px; cursor: pointer;
+  transition: all .15s;
+}
+.t-btn-reset:hover { background: var(--bg-soft); color: var(--text); }
+
+/* 參考卡 */
+.t-ref-section {
+  padding-bottom: 22px; margin-bottom: 22px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.t-ref-section:last-child { padding-bottom: 0; margin-bottom: 0; border: none; }
+.t-ref-title {
+  font-size: 16px; font-weight: 600; color: var(--accent);
+  margin-bottom: 10px; letter-spacing: -.005em;
+}
+.t-ref-body {
+  font-size: 15px; color: var(--text-soft); line-height: 1.65;
+}
+.t-ref-body code, .t-ref-body .formula {
+  font-family: "SF Mono", "Menlo", "Monaco", monospace;
+  background: var(--bg-soft); padding: 2px 6px;
+  border-radius: 6px; font-size: 14px; color: var(--accent);
+}
+
+/* note */
+.t-note {
+  margin-top: 20px; padding: 12px 16px;
+  background: var(--bg-soft); border-radius: 12px;
+  font-size: 13px; color: var(--text-muted); line-height: 1.55;
+}
+
+/* ============== 同分類關聯 / 分頁導覽 ============== */
+.related { padding: 60px 22px 40px; background: var(--bg-soft); border-top: 1px solid var(--line-soft); }
+.related-title { text-align: center; font-size: clamp(22px, 2.8vw, 32px); font-weight: 700; letter-spacing: -.02em; margin-bottom: 8px; }
+.related-sub { text-align: center; font-size: 14px; color: var(--text-muted); margin-bottom: 30px; }
+.related-grid {
+  max-width: 1080px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px;
+}
+
+.page-nav {
+  max-width: 1080px; margin: 24px auto 60px; padding: 0 22px;
+  display: grid; grid-template-columns: 1fr auto 1fr; gap: 14px;
+}
+.page-nav-link {
+  display: flex; flex-direction: column; padding: 18px 22px;
+  background: #fff; border: 1px solid var(--line-soft);
+  border-radius: var(--radius); color: var(--text);
+  transition: all .2s; min-height: 70px; justify-content: center;
+}
+.page-nav-link:hover { text-decoration: none; border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.page-nav-link.dim { opacity: .35; pointer-events: none; }
+.page-nav-tag { font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); font-weight: 500; margin-bottom: 4px; }
+.page-nav-name { font-size: 14px; font-weight: 600; color: var(--text); }
+.page-nav-link.next { text-align: right; }
+.page-nav-back {
+  display: flex; align-items: center; justify-content: center;
+  padding: 0 24px; color: var(--accent); font-size: 14px; font-weight: 500;
+  border: 1px solid transparent; border-radius: var(--radius);
+}
+.page-nav-back:hover { background: rgba(0,0,0,.03); text-decoration: none; }
+
+/* ============== 廣告 ============== */
+.ad-slot {
+  max-width: 1080px; margin: 30px auto; padding: 0 22px;
+  display: flex; justify-content: center; min-height: 90px;
+}
+.ad-slot ins { display: block; width: 100%; max-width: 728px; }
+
+/* ============== Footer / Quote ============== */
+.quote-section { padding: 100px 22px; background: var(--bg-soft); text-align: center; }
+.quote {
+  font-family: "Noto Serif TC", Georgia, serif; font-weight: 500;
+  font-size: clamp(24px, 3.4vw, 40px); letter-spacing: -.015em;
+  max-width: 880px; margin: 0 auto 18px; line-height: 1.32; font-style: italic;
+}
+.quote-cite { font-size: 14px; color: var(--text-muted); letter-spacing: .04em; text-transform: uppercase; }
+
+.footer { background: #f5f5f7; color: var(--text-muted); font-size: 12px; padding: 28px 22px 26px; border-top: 1px solid var(--line-soft); }
+.footer-inner { max-width: 1080px; margin: 0 auto; line-height: 1.6; }
+.footer-top {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 14px;
+  padding-bottom: 14px; border-bottom: 1px solid var(--line-soft); margin-bottom: 14px;
+}
+.footer-brand { font-weight: 600; color: var(--text-soft); font-size: 13px; }
+.footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+.footer-links a { color: var(--text-muted); font-size: 12px; }
+.footer-bottom { color: var(--text-light); }
+
+/* ============== 動畫 ============== */
+@keyframes rise { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.rise { animation: rise .7s cubic-bezier(.2,.8,.2,1) both; }
+.rise-1 { animation-delay: .05s; }
+.rise-2 { animation-delay: .12s; }
+.rise-3 { animation-delay: .19s; }
+.rise-4 { animation-delay: .26s; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+/* ============== 響應式 ============== */
+@media (max-width: 768px) {
+  .nav-inner { height: 44px; padding: 0 16px; }
+  .nav-links { gap: 14px; }
+  .nav-links a { font-size: 11.5px; }
+  .hero { padding: 64px 18px 48px; }
+  .mosaic { grid-template-columns: 1fr; padding: 0 12px 12px; }
+  .mosaic .tile-wide { grid-column: span 1; }
+  .tile { padding: 40px 28px; min-height: 380px; }
+  .industry-hero { padding: 76px 18px 56px; }
+  .tools-grid { grid-template-columns: 1fr; padding: 28px 18px 48px; gap: 14px; }
+  .quote-section { padding: 70px 22px; }
+  .footer-top { flex-direction: column; align-items: flex-start; }
+  .tool-hero { padding: 36px 18px 48px; }
+  .t-app { padding: 26px 22px; }
+  .t-inputs { grid-template-columns: 1fr; }
+  .t-conv-pair { grid-template-columns: 1fr; gap: 12px; }
+  .t-conv-arrow { transform: rotate(90deg); padding: 0; }
+  .page-nav { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .hero-cta { flex-direction: column; width: 100%; }
+  .hero-cta .btn { width: 100%; justify-content: center; }
+  .cats { padding: 18px 14px 0; }
+}
+
+/* select / color 補充樣式 */
+.t-select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'><path fill='%23999' d='M6 8L0 0h12z'/></svg>");
+  background-repeat: no-repeat; background-position: right 14px center; background-size: 10px;
+  padding-right: 36px; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+.t-color { padding: 4px; height: 46px; cursor: pointer; }
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0268893833921284" crossorigin="anonymous"></script>
+</head>
+<body class="theme-landscape">
+<nav class="nav"><div class="nav-inner">
+  <a href="../index.html" class="nav-brand">🛠 500 Tools</a>
+  <div class="nav-links">
+    <a href="../arch.html">建築土木</a>
+    <a href="../interior.html">室內設計</a>
+    <a href="../realestate.html">房地產</a>
+    <a href="../landscape.html">景觀園藝</a>
+    <a href="../mep.html">機電水電</a>
+  </div>
+</div></nav>
+
+<div class="breadcrumb">
+  <a href="../index.html">首頁</a>
+  <span class="sep">›</span>
+  <a href="../landscape.html">景觀園藝</a>
+  <span class="sep">›</span>
+  <span class="current">№ 020</span>
+</div>
+
+<header class="tool-hero">
+  <div class="tool-num-big rise rise-1">020</div>
+  <div class="tool-cat-pill rise rise-2">灌溉水分</div>
+  <h1 class="tool-h1 rise rise-3">雨水回收容量</h1>
+  <p class="tool-h1-sub rise rise-4">年雨水可收量</p>
+</header>
+
+<section class="tool-app-wrap">
+  <div id="t-mount"></div>
+</section>
+
+<div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0268893833921284" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+
+
+<section class="related">
+  <h2 class="related-title">灌溉水分 · 同分類工具</h2>
+  <div class="related-sub">繼續探索同類工具</div>
+  <div class="related-grid">
+    <a class="tool" href="016.html">
+      <div class="tool-num">№ 016</div>
+      <div class="tool-name">灌溉用水量</div>
+      <div class="tool-desc">每日用水</div>
+      <div class="tool-foot"><span class="tool-cat">灌溉水分</span><span class="tool-go">使用</span></div>
+    </a><a class="tool" href="017.html">
+      <div class="tool-num">№ 017</div>
+      <div class="tool-name">滴灌用水</div>
+      <div class="tool-desc">由滴頭數推用水</div>
+      <div class="tool-foot"><span class="tool-cat">灌溉水分</span><span class="tool-go">使用</span></div>
+    </a><a class="tool" href="018.html">
+      <div class="tool-num">№ 018</div>
+      <div class="tool-name">噴灌覆蓋</div>
+      <div class="tool-desc">噴頭覆蓋面積</div>
+      <div class="tool-foot"><span class="tool-cat">灌溉水分</span><span class="tool-go">使用</span></div>
+    </a><a class="tool" href="019.html">
+      <div class="tool-num">№ 019</div>
+      <div class="tool-name">水管管徑選擇</div>
+      <div class="tool-desc">由流量推管徑</div>
+      <div class="tool-foot"><span class="tool-cat">灌溉水分</span><span class="tool-go">使用</span></div>
+    </a>
+  </div>
+</section>
+
+
+<nav class="page-nav">
+  <a class="page-nav-link prev" href="019.html">
+    <span class="page-nav-tag">‹ 上一個 · № 019</span>
+    <span class="page-nav-name">水管管徑選擇</span>
+  </a>
+  <a class="page-nav-back" href="../landscape.html">回 景觀園藝 ↑</a>
+  <a class="page-nav-link next" href="021.html">
+    <span class="page-nav-tag">下一個 · № 021 ›</span>
+    <span class="page-nav-name">蒸發散 ET</span>
+  </a>
+</nav>
+
+<footer class="footer"><div class="footer-inner">
+  <div class="footer-top">
+    <div class="footer-brand">🛠 500 Tools · taiwanarch.com</div>
+    <div class="footer-links">
+      <a href="../index.html">首頁</a>
+      <a href="../arch.html">建築土木</a>
+      <a href="../interior.html">室內設計</a>
+      <a href="../realestate.html">房地產</a>
+      <a href="../landscape.html">景觀園藝</a>
+      <a href="../mep.html">機電水電</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 taiwanarch.com · 為效率而存在,為專業而生 · 工具僅供參考,實務應用請以法規與專業判斷為準。</div>
+</div></footer>
+
+<script>/* ========================================================================
+   500 TOOLS · 通用工具引擎 v2
+   ======================================================================== */
+(function () {
+'use strict';
+
+const $ = (sel, ctx=document) => ctx.querySelector(sel);
+
+function escape(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g,
+    c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function fmt(v) {
+  if (v == null) return '—';
+  if (typeof v === 'string') return v;
+  if (typeof v === 'boolean') return v ? '是' : '否';
+  if (typeof v !== 'number' || isNaN(v)) return '—';
+  if (!isFinite(v)) return '∞';
+  if (v === 0) return '0';
+  if (Math.abs(v) < 0.001) return v.toExponential(3);
+  if (Number.isInteger(v) && Math.abs(v) < 1e9) return v.toLocaleString();
+  return Number(v.toFixed(4)).toLocaleString();
+}
+
+function makeFn(formula, varNames) {
+  const builtins = ['Math','PI','sqrt','pow','abs','min','max','log','log10','sin','cos','tan','floor','ceil','round'];
+  const argNames = [...varNames, ...builtins];
+  const argValues = [Math, Math.PI, Math.sqrt, Math.pow, Math.abs, Math.min, Math.max, Math.log, Math.log10, Math.sin, Math.cos, Math.tan, Math.floor, Math.ceil, Math.round];
+  try {
+    const fn = new Function(...argNames, `return (${formula});`);
+    return (vars) => {
+      try {
+        const args = varNames.map(n => vars[n]);
+        return fn(...args, ...argValues);
+      } catch (e) { return NaN; }
+    };
+  } catch (e) {
+    return () => NaN;
+  }
+}
+
+function renderCalc(tool, mount) {
+  const ins = tool.in || tool.inputs || [];
+  const outs = tool.out || tool.outputs || [];
+  const note = tool.note || tool.formula;
+  const varNames = ins.map(i => i.id);
+  const compiledOuts = outs.map(o => ({ ...o, fn: makeFn(o.f, varNames) }));
+
+  const inputsHtml = ins.map(i => {
+    const labelHtml = `<label class="t-label" for="t-${i.id}">${escape(i.label)}${i.unit ? ` <span class="t-unit-tag">${escape(i.unit)}</span>` : ''}</label>`;
+    if (i.type === 'select' && Array.isArray(i.options)) {
+      const optsHtml = i.options.map(opt => {
+        const [label, value] = Array.isArray(opt) ? opt : [opt, opt];
+        const sel = (i.default !== undefined && String(value) === String(i.default)) ? ' selected' : '';
+        return `<option value="${escape(value)}"${sel}>${escape(label)}</option>`;
+      }).join('');
+      return `<div class="t-field">${labelHtml}<select class="t-input t-select" id="t-${i.id}">${optsHtml}</select></div>`;
+    }
+    if (i.type === 'text') {
+      return `<div class="t-field">${labelHtml}<input class="t-input" type="text" id="t-${i.id}" value="${escape(i.default ?? '')}"></div>`;
+    }
+    if (i.type === 'color') {
+      const def = i.default || '#3a86ff';
+      return `<div class="t-field">${labelHtml}<input class="t-input t-color" type="color" id="t-${i.id}" value="${escape(def)}"></div>`;
+    }
+    return `<div class="t-field">${labelHtml}<input class="t-input" type="number" id="t-${i.id}" value="${i.default ?? 0}"
+      ${i.min != null ? `min="${i.min}"` : ''} ${i.max != null ? `max="${i.max}"` : ''} step="${i.step || 'any'}"></div>`;
+  }).join('');
+
+  const outputsHtml = outs.map((o, idx) => `
+    <div class="t-out-row" data-idx="${idx}">
+      <div class="t-out-label">${escape(o.label)}</div>
+      <div class="t-out-value"><span class="t-num">—</span> <span class="t-unit">${escape(o.unit || '')}</span></div>
+    </div>
+  `).join('');
+
+  mount.innerHTML = `
+    <div class="t-app">
+      <div class="t-inputs">${inputsHtml}</div>
+      <div class="t-outputs">${outputsHtml}</div>
+      ${note ? `<div class="t-note">💡 ${escape(note)}</div>` : ''}
+    </div>
+  `;
+
+  function readVar(i) {
+    const el = $(`#t-${i.id}`, mount);
+    if (!el) return 0;
+    if (i.type === 'text' || i.type === 'color') return el.value;
+    if (i.type === 'select') {
+      const v = el.value;
+      const num = parseFloat(v);
+      return isNaN(num) ? v : num;
+    }
+    return parseFloat(el.value) || 0;
+  }
+
+  function compute() {
+    const vars = {};
+    ins.forEach(i => vars[i.id] = readVar(i));
+    compiledOuts.forEach((o, idx) => {
+      const val = o.fn(vars);
+      const row = mount.querySelector(`.t-out-row[data-idx="${idx}"] .t-num`);
+      if (row) row.textContent = fmt(val);
+    });
+  }
+  ins.forEach(i => {
+    const el = $(`#t-${i.id}`, mount);
+    if (el) {
+      el.addEventListener('input', compute);
+      el.addEventListener('change', compute);
+    }
+  });
+  compute();
+}
+
+function renderConv(tool, mount) {
+  const r = tool.ratio;
+  mount.innerHTML = `
+    <div class="t-app t-conv">
+      <div class="t-conv-pair">
+        <div class="t-field">
+          <label class="t-label">${escape(tool.left.label)}</label>
+          <input class="t-input" type="number" id="t-conv-l" value="${tool.left.default ?? 1}" step="${tool.left.step || 'any'}">
+        </div>
+        <div class="t-conv-arrow">⇌</div>
+        <div class="t-field">
+          <label class="t-label">${escape(tool.right.label)}</label>
+          <input class="t-input" type="number" id="t-conv-r" value="${(tool.left.default ?? 1) * r}" step="${tool.right.step || 'any'}">
+        </div>
+      </div>
+      ${tool.note ? `<div class="t-note">💡 ${escape(tool.note)}</div>` : ''}
+    </div>
+  `;
+  const L = $('#t-conv-l', mount);
+  const R = $('#t-conv-r', mount);
+  let lock = false;
+  L.addEventListener('input', () => {
+    if (lock) return; lock = true;
+    R.value = +((parseFloat(L.value) || 0) * r).toFixed(6);
+    lock = false;
+  });
+  R.addEventListener('input', () => {
+    if (lock) return; lock = true;
+    L.value = +((parseFloat(R.value) || 0) / r).toFixed(6);
+    lock = false;
+  });
+}
+
+function renderLookup(tool, mount) {
+  const fields = tool.fields || [];
+  const rows = tool.rows || [];
+  const headHtml = fields.map(f => `<th>${escape(f)}</th>`).join('');
+  const renderRows = (filter='') => {
+    const f = filter.trim().toLowerCase();
+    return rows
+      .filter(r => !f || r.some(c => String(c).toLowerCase().includes(f)))
+      .map(r => `<tr>${r.map(c => `<td>${escape(c)}</td>`).join('')}</tr>`).join('');
+  };
+  mount.innerHTML = `
+    <div class="t-app">
+      ${tool.search !== false ? `<input class="t-input t-search" type="text" id="t-search" placeholder="🔍 搜尋…">` : ''}
+      <div class="t-table-wrap">
+        <table class="t-table">
+          <thead><tr>${headHtml}</tr></thead>
+          <tbody id="t-tbody">${renderRows()}</tbody>
+        </table>
+      </div>
+      ${tool.note ? `<div class="t-note">💡 ${escape(tool.note)}</div>` : ''}
+    </div>
+  `;
+  const search = $('#t-search', mount);
+  if (search) search.addEventListener('input', e => { $('#t-tbody', mount).innerHTML = renderRows(e.target.value); });
+}
+
+function renderCheck(tool, mount) {
+  const items = tool.items || [];
+  mount.innerHTML = `
+    <div class="t-app">
+      <div class="t-progress-row">
+        <div class="t-progress-bar"><div class="t-progress-fill" id="t-fill" style="width:0%"></div></div>
+        <div class="t-progress-num" id="t-prog-num">0 / ${items.length}</div>
+      </div>
+      <ul class="t-check-list">
+        ${items.map((it, i) => `
+          <li class="t-check-item" data-idx="${i}">
+            <label class="t-check-label">
+              <input type="checkbox" class="t-check-box" data-idx="${i}">
+              <span class="t-check-mark"></span>
+              <span class="t-check-text">
+                <strong>${escape(typeof it === 'string' ? it : it.title)}</strong>
+                ${typeof it === 'object' && it.desc ? `<small>${escape(it.desc)}</small>` : ''}
+              </span>
+            </label>
+          </li>
+        `).join('')}
+      </ul>
+      <button class="t-btn-reset" id="t-reset">清除全部</button>
+      ${tool.note ? `<div class="t-note">💡 ${escape(tool.note)}</div>` : ''}
+    </div>
+  `;
+  function update() {
+    const total = items.length;
+    const done = mount.querySelectorAll('.t-check-box:checked').length;
+    $('#t-fill', mount).style.width = (done/total*100) + '%';
+    $('#t-prog-num', mount).textContent = `${done} / ${total}`;
+    mount.querySelectorAll('.t-check-item').forEach(li => {
+      const idx = +li.dataset.idx;
+      li.classList.toggle('done', mount.querySelector(`.t-check-box[data-idx="${idx}"]`).checked);
+    });
+  }
+  mount.querySelectorAll('.t-check-box').forEach(cb => cb.addEventListener('change', update));
+  $('#t-reset', mount).addEventListener('click', () => {
+    mount.querySelectorAll('.t-check-box').forEach(cb => cb.checked = false);
+    update();
+  });
+}
+
+function renderRef(tool, mount) {
+  const sections = tool.sections || [];
+  mount.innerHTML = `
+    <div class="t-app t-ref">
+      ${sections.map(s => `
+        <div class="t-ref-section">
+          <h3 class="t-ref-title">${escape(s.title)}</h3>
+          <div class="t-ref-body">${s.html ? s.body : escape(s.body).replace(/\n/g,'<br>')}</div>
+        </div>
+      `).join('')}
+      ${tool.note ? `<div class="t-note">💡 ${escape(tool.note)}</div>` : ''}
+    </div>
+  `;
+}
+
+window.initTool = function(tool) {
+  const mount = document.getElementById('t-mount');
+  if (!mount || !tool) return;
+  try {
+    const type = tool.type || 'calc';
+    switch (type) {
+      case 'calc':   renderCalc(tool, mount); break;
+      case 'conv':   renderConv(tool, mount); break;
+      case 'lookup': renderLookup(tool, mount); break;
+      case 'check':  renderCheck(tool, mount); break;
+      case 'ref':    renderRef(tool, mount); break;
+      default: mount.innerHTML = '<p>未知工具類型</p>';
+    }
+  } catch (e) {
+    console.error('Tool init failed:', e);
+    mount.innerHTML = '<p>工具載入失敗,請重新整理。</p>';
+  }
+};
+})();
+</script>
+<script>window.initTool({"n":20,"name":"雨水回收容量","cat":"灌溉水分","desc":"年雨水可收量","inputs":[{"id":"A","label":"集水屋頂","unit":"m²","default":50},{"id":"r","label":"年雨量","unit":"mm","default":2400},{"id":"e","label":"集水效率","unit":"%","default":80}],"outputs":[{"label":"年回收量","unit":"m³","f":"A*r*e/100/1000"}],"formula":"= A × 年雨量 × 效率"});</script>
+</body></html>

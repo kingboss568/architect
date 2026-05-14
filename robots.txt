@@ -1,0 +1,29 @@
+# taiwanarch.com — robots.txt
+# 改造版 2026.05
+
+User-agent: *
+Allow: /
+
+# 站群入口與五個專業站別
+Allow: /index.html
+Allow: /architect.html
+Allow: /autocad.html
+Allow: /interior.html
+Allow: /modeco.html
+Allow: /original.html
+
+# 500 Tools 引流頁全部開放索引
+Allow: /500tools/
+
+# 設計系統允許索引
+Allow: /design-system.html
+
+# 不索引下載連結與後台
+Disallow: /downloads/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.zip$
+Disallow: /*.dwg$
+
+# Sitemap
+Sitemap: https://taiwanarch.com/sitemap.xml

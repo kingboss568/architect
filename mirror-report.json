@@ -1,0 +1,2026 @@
+{
+  "baseUrl": "https://taiwanarch.jushiung.workers.dev/",
+  "fetchedAt": "2026-05-13T10:51:00.967Z",
+  "results": [
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/",
+      "status": 200,
+      "bytes": 58711,
+      "file": "taiwanarch/public/index.html",
+      "contentType": "text/html"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/index.html",
+      "status": 200,
+      "bytes": 58711,
+      "file": "taiwanarch/public/index.html",
+      "contentType": "text/html"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/robots.txt",
+      "status": 200,
+      "bytes": 535,
+      "file": "taiwanarch/public/robots.txt",
+      "contentType": "text/plain"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/sitemap.xml",
+      "status": 200,
+      "bytes": 3514,
+      "file": "taiwanarch/public/sitemap.xml",
+      "contentType": "text/xml"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/image/svg+xml,%3Csvg%20xmlns=",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a2/a2-1.jpg",
+      "status": 200,
+      "bytes": 75199,
+      "file": "taiwanarch/public/assets/architect/a2/a2-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-3.jpg",
+      "status": 200,
+      "bytes": 68502,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/500tools/arch/001.html",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/500tools/arch/002.html",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/500tools/arch/003.html",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/500tools/arch/004.html",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/500tools/arch/005.html",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/500tools/arch/006.html",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/500tools/arch/007.html",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/500tools/arch/008.html",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/500tools/arch.html",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/support@taiwanarch.com",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;900&family=Noto+Serif+TC:wght@500;700;900&display=swap",
+      "status": 404,
+      "skipped": true
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a1/sshot-1.jpg",
+      "status": 200,
+      "bytes": 336165,
+      "file": "taiwanarch/public/assets/architect/a1/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a1/sshot-2.jpg",
+      "status": 200,
+      "bytes": 209982,
+      "file": "taiwanarch/public/assets/architect/a1/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a1/sshot-3.jpg",
+      "status": 200,
+      "bytes": 248218,
+      "file": "taiwanarch/public/assets/architect/a1/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a1/sshot-4.jpg",
+      "status": 200,
+      "bytes": 294303,
+      "file": "taiwanarch/public/assets/architect/a1/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a1/sshot-5.jpg",
+      "status": 200,
+      "bytes": 206367,
+      "file": "taiwanarch/public/assets/architect/a1/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a1/sshot-6.jpg",
+      "status": 200,
+      "bytes": 284097,
+      "file": "taiwanarch/public/assets/architect/a1/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a1/sshot-7.jpg",
+      "status": 200,
+      "bytes": 84242,
+      "file": "taiwanarch/public/assets/architect/a1/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a2/a2-2.jpg",
+      "status": 200,
+      "bytes": 74747,
+      "file": "taiwanarch/public/assets/architect/a2/a2-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a2/a2-3.jpg",
+      "status": 200,
+      "bytes": 75820,
+      "file": "taiwanarch/public/assets/architect/a2/a2-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a2/a2-4.jpg",
+      "status": 200,
+      "bytes": 101399,
+      "file": "taiwanarch/public/assets/architect/a2/a2-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a2/a2-5.jpg",
+      "status": 200,
+      "bytes": 82207,
+      "file": "taiwanarch/public/assets/architect/a2/a2-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a2/a2-6.jpg",
+      "status": 200,
+      "bytes": 68003,
+      "file": "taiwanarch/public/assets/architect/a2/a2-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a2/a2-7.jpg",
+      "status": 200,
+      "bytes": 163038,
+      "file": "taiwanarch/public/assets/architect/a2/a2-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a3/sshot-1.jpg",
+      "status": 200,
+      "bytes": 41398,
+      "file": "taiwanarch/public/assets/architect/a3/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a3/sshot-2.jpg",
+      "status": 200,
+      "bytes": 67868,
+      "file": "taiwanarch/public/assets/architect/a3/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a3/sshot-3.jpg",
+      "status": 200,
+      "bytes": 73216,
+      "file": "taiwanarch/public/assets/architect/a3/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a3/sshot-4.jpg",
+      "status": 200,
+      "bytes": 82834,
+      "file": "taiwanarch/public/assets/architect/a3/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a3/sshot-5.jpg",
+      "status": 200,
+      "bytes": 67234,
+      "file": "taiwanarch/public/assets/architect/a3/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a3/sshot-6.jpg",
+      "status": 200,
+      "bytes": 50547,
+      "file": "taiwanarch/public/assets/architect/a3/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a3/sshot-7.jpg",
+      "status": 200,
+      "bytes": 46857,
+      "file": "taiwanarch/public/assets/architect/a3/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a3/sshot-8.jpg",
+      "status": 200,
+      "bytes": 53850,
+      "file": "taiwanarch/public/assets/architect/a3/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a6/sshot-1.jpg",
+      "status": 200,
+      "bytes": 71701,
+      "file": "taiwanarch/public/assets/architect/a6/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a6/sshot-2.jpg",
+      "status": 200,
+      "bytes": 50836,
+      "file": "taiwanarch/public/assets/architect/a6/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a6/sshot-3.jpg",
+      "status": 200,
+      "bytes": 64645,
+      "file": "taiwanarch/public/assets/architect/a6/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a6/sshot-4.jpg",
+      "status": 200,
+      "bytes": 65895,
+      "file": "taiwanarch/public/assets/architect/a6/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a6/sshot-5.jpg",
+      "status": 200,
+      "bytes": 58465,
+      "file": "taiwanarch/public/assets/architect/a6/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a6/sshot-6.jpg",
+      "status": 200,
+      "bytes": 54414,
+      "file": "taiwanarch/public/assets/architect/a6/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a6/sshot-7.jpg",
+      "status": 200,
+      "bytes": 49155,
+      "file": "taiwanarch/public/assets/architect/a6/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a6/sshot-8.jpg",
+      "status": 200,
+      "bytes": 49887,
+      "file": "taiwanarch/public/assets/architect/a6/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a4/sshot-1.jpg",
+      "status": 200,
+      "bytes": 105876,
+      "file": "taiwanarch/public/assets/architect/a4/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a4/sshot-2.jpg",
+      "status": 200,
+      "bytes": 103731,
+      "file": "taiwanarch/public/assets/architect/a4/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a4/sshot-3.jpg",
+      "status": 200,
+      "bytes": 83357,
+      "file": "taiwanarch/public/assets/architect/a4/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a4/sshot-4.jpg",
+      "status": 200,
+      "bytes": 100189,
+      "file": "taiwanarch/public/assets/architect/a4/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a4/sshot-5.jpg",
+      "status": 200,
+      "bytes": 91330,
+      "file": "taiwanarch/public/assets/architect/a4/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a4/sshot-6.jpg",
+      "status": 200,
+      "bytes": 92094,
+      "file": "taiwanarch/public/assets/architect/a4/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a4/sshot-7.jpg",
+      "status": 200,
+      "bytes": 97656,
+      "file": "taiwanarch/public/assets/architect/a4/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a4/sshot-8.jpg",
+      "status": 200,
+      "bytes": 113709,
+      "file": "taiwanarch/public/assets/architect/a4/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a8/sshot-1.jpg",
+      "status": 200,
+      "bytes": 46348,
+      "file": "taiwanarch/public/assets/architect/a8/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a8/sshot-2.jpg",
+      "status": 200,
+      "bytes": 91327,
+      "file": "taiwanarch/public/assets/architect/a8/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a8/sshot-3.jpg",
+      "status": 200,
+      "bytes": 106172,
+      "file": "taiwanarch/public/assets/architect/a8/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a8/sshot-4.jpg",
+      "status": 200,
+      "bytes": 72243,
+      "file": "taiwanarch/public/assets/architect/a8/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a8/sshot-5.jpg",
+      "status": 200,
+      "bytes": 74895,
+      "file": "taiwanarch/public/assets/architect/a8/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a8/sshot-6.jpg",
+      "status": 200,
+      "bytes": 75850,
+      "file": "taiwanarch/public/assets/architect/a8/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a8/sshot-7.jpg",
+      "status": 200,
+      "bytes": 75444,
+      "file": "taiwanarch/public/assets/architect/a8/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a8/sshot-8.jpg",
+      "status": 200,
+      "bytes": 91029,
+      "file": "taiwanarch/public/assets/architect/a8/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a5/sshot-1.jpg",
+      "status": 200,
+      "bytes": 69488,
+      "file": "taiwanarch/public/assets/architect/a5/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a5/sshot-2.jpg",
+      "status": 200,
+      "bytes": 69722,
+      "file": "taiwanarch/public/assets/architect/a5/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a5/sshot-3.jpg",
+      "status": 200,
+      "bytes": 69701,
+      "file": "taiwanarch/public/assets/architect/a5/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a5/sshot-4.jpg",
+      "status": 200,
+      "bytes": 59689,
+      "file": "taiwanarch/public/assets/architect/a5/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a5/sshot-5.jpg",
+      "status": 200,
+      "bytes": 65273,
+      "file": "taiwanarch/public/assets/architect/a5/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a5/sshot-6.jpg",
+      "status": 200,
+      "bytes": 73358,
+      "file": "taiwanarch/public/assets/architect/a5/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a5/sshot-7.jpg",
+      "status": 200,
+      "bytes": 63625,
+      "file": "taiwanarch/public/assets/architect/a5/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a5/sshot-8.jpg",
+      "status": 200,
+      "bytes": 74178,
+      "file": "taiwanarch/public/assets/architect/a5/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a5/sshot-9.jpg",
+      "status": 200,
+      "bytes": 37545,
+      "file": "taiwanarch/public/assets/architect/a5/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a9/sshot-1.jpg",
+      "status": 200,
+      "bytes": 95237,
+      "file": "taiwanarch/public/assets/architect/a9/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a9/sshot-2.jpg",
+      "status": 200,
+      "bytes": 64841,
+      "file": "taiwanarch/public/assets/architect/a9/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a9/sshot-3.jpg",
+      "status": 200,
+      "bytes": 58686,
+      "file": "taiwanarch/public/assets/architect/a9/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a9/sshot-4.jpg",
+      "status": 200,
+      "bytes": 71703,
+      "file": "taiwanarch/public/assets/architect/a9/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a9/sshot-5.jpg",
+      "status": 200,
+      "bytes": 84910,
+      "file": "taiwanarch/public/assets/architect/a9/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a9/sshot-6.jpg",
+      "status": 200,
+      "bytes": 80087,
+      "file": "taiwanarch/public/assets/architect/a9/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a9/sshot-7.jpg",
+      "status": 200,
+      "bytes": 80029,
+      "file": "taiwanarch/public/assets/architect/a9/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-1.jpg",
+      "status": 200,
+      "bytes": 44562,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-10.jpg",
+      "status": 200,
+      "bytes": 48535,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-11.jpg",
+      "status": 200,
+      "bytes": 46768,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-11.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-2.jpg",
+      "status": 200,
+      "bytes": 44425,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-3.jpg",
+      "status": 200,
+      "bytes": 48790,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-4.jpg",
+      "status": 200,
+      "bytes": 48485,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-5.jpg",
+      "status": 200,
+      "bytes": 53278,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-6.jpg",
+      "status": 200,
+      "bytes": 53133,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-7.jpg",
+      "status": 200,
+      "bytes": 54805,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-8.jpg",
+      "status": 200,
+      "bytes": 49413,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/a7/sshot-9.jpg",
+      "status": 200,
+      "bytes": 54689,
+      "file": "taiwanarch/public/assets/architect/a7/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-1/sshot-1.jpg",
+      "status": 200,
+      "bytes": 80606,
+      "file": "taiwanarch/public/assets/architect/b1-1/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-1/sshot-2.jpg",
+      "status": 200,
+      "bytes": 79081,
+      "file": "taiwanarch/public/assets/architect/b1-1/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-1/sshot-3.jpg",
+      "status": 200,
+      "bytes": 82053,
+      "file": "taiwanarch/public/assets/architect/b1-1/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-1/sshot-4.jpg",
+      "status": 200,
+      "bytes": 81913,
+      "file": "taiwanarch/public/assets/architect/b1-1/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-1/sshot-5.jpg",
+      "status": 200,
+      "bytes": 82246,
+      "file": "taiwanarch/public/assets/architect/b1-1/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-1/sshot-6.jpg",
+      "status": 200,
+      "bytes": 89881,
+      "file": "taiwanarch/public/assets/architect/b1-1/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-1/sshot-7.jpg",
+      "status": 200,
+      "bytes": 63769,
+      "file": "taiwanarch/public/assets/architect/b1-1/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-2/sshot-1.jpg",
+      "status": 200,
+      "bytes": 78303,
+      "file": "taiwanarch/public/assets/architect/b1-2/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-2/sshot-2.jpg",
+      "status": 200,
+      "bytes": 80041,
+      "file": "taiwanarch/public/assets/architect/b1-2/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-2/sshot-3.jpg",
+      "status": 200,
+      "bytes": 83230,
+      "file": "taiwanarch/public/assets/architect/b1-2/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-2/sshot-4.jpg",
+      "status": 200,
+      "bytes": 88542,
+      "file": "taiwanarch/public/assets/architect/b1-2/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-2/sshot-5.jpg",
+      "status": 200,
+      "bytes": 85089,
+      "file": "taiwanarch/public/assets/architect/b1-2/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-2/sshot-6.jpg",
+      "status": 200,
+      "bytes": 80804,
+      "file": "taiwanarch/public/assets/architect/b1-2/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-2/sshot-7.jpg",
+      "status": 200,
+      "bytes": 79353,
+      "file": "taiwanarch/public/assets/architect/b1-2/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-1.jpg",
+      "status": 200,
+      "bytes": 53117,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-10.jpg",
+      "status": 200,
+      "bytes": 48297,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-11.jpg",
+      "status": 200,
+      "bytes": 55915,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-11.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-12.jpg",
+      "status": 200,
+      "bytes": 51675,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-12.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-2.jpg",
+      "status": 200,
+      "bytes": 52639,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-3.jpg",
+      "status": 200,
+      "bytes": 56196,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-4.jpg",
+      "status": 200,
+      "bytes": 50423,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-5.jpg",
+      "status": 200,
+      "bytes": 55134,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-6.jpg",
+      "status": 200,
+      "bytes": 55467,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-7.jpg",
+      "status": 200,
+      "bytes": 49617,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-8.jpg",
+      "status": 200,
+      "bytes": 49639,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b1-3/sshot-9.jpg",
+      "status": 200,
+      "bytes": 57272,
+      "file": "taiwanarch/public/assets/architect/b1-3/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-1/sshot-1.jpg",
+      "status": 200,
+      "bytes": 65290,
+      "file": "taiwanarch/public/assets/architect/b2-1/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-1/sshot-2.jpg",
+      "status": 200,
+      "bytes": 54808,
+      "file": "taiwanarch/public/assets/architect/b2-1/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-1/sshot-3.jpg",
+      "status": 200,
+      "bytes": 57047,
+      "file": "taiwanarch/public/assets/architect/b2-1/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-1/sshot-4.jpg",
+      "status": 200,
+      "bytes": 58490,
+      "file": "taiwanarch/public/assets/architect/b2-1/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-1/sshot-5.jpg",
+      "status": 200,
+      "bytes": 58097,
+      "file": "taiwanarch/public/assets/architect/b2-1/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-1/sshot-6.jpg",
+      "status": 200,
+      "bytes": 64366,
+      "file": "taiwanarch/public/assets/architect/b2-1/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-1/sshot-7.jpg",
+      "status": 200,
+      "bytes": 56524,
+      "file": "taiwanarch/public/assets/architect/b2-1/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-1/sshot-8.jpg",
+      "status": 200,
+      "bytes": 59520,
+      "file": "taiwanarch/public/assets/architect/b2-1/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-1/sshot-9.jpg",
+      "status": 200,
+      "bytes": 59936,
+      "file": "taiwanarch/public/assets/architect/b2-1/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-2/sshot-1.jpg",
+      "status": 200,
+      "bytes": 58848,
+      "file": "taiwanarch/public/assets/architect/b2-2/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-2/sshot-2.jpg",
+      "status": 200,
+      "bytes": 56700,
+      "file": "taiwanarch/public/assets/architect/b2-2/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-2/sshot-3.jpg",
+      "status": 200,
+      "bytes": 61336,
+      "file": "taiwanarch/public/assets/architect/b2-2/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-2/sshot-4.jpg",
+      "status": 200,
+      "bytes": 61289,
+      "file": "taiwanarch/public/assets/architect/b2-2/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-2/sshot-5.jpg",
+      "status": 200,
+      "bytes": 61384,
+      "file": "taiwanarch/public/assets/architect/b2-2/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-2/sshot-6.jpg",
+      "status": 200,
+      "bytes": 61353,
+      "file": "taiwanarch/public/assets/architect/b2-2/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-2/sshot-7.jpg",
+      "status": 200,
+      "bytes": 59457,
+      "file": "taiwanarch/public/assets/architect/b2-2/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-2/sshot-8.jpg",
+      "status": 200,
+      "bytes": 58142,
+      "file": "taiwanarch/public/assets/architect/b2-2/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b2-2/sshot-9.jpg",
+      "status": 200,
+      "bytes": 57839,
+      "file": "taiwanarch/public/assets/architect/b2-2/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-1.jpg",
+      "status": 200,
+      "bytes": 69838,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-10.jpg",
+      "status": 200,
+      "bytes": 65233,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-11.jpg",
+      "status": 200,
+      "bytes": 64770,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-11.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-12.jpg",
+      "status": 200,
+      "bytes": 62394,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-12.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-2.jpg",
+      "status": 200,
+      "bytes": 70050,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-3.jpg",
+      "status": 200,
+      "bytes": 70570,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-4.jpg",
+      "status": 200,
+      "bytes": 70802,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-5.jpg",
+      "status": 200,
+      "bytes": 76071,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-6.jpg",
+      "status": 200,
+      "bytes": 67633,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-7.jpg",
+      "status": 200,
+      "bytes": 79398,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-8.jpg",
+      "status": 200,
+      "bytes": 70309,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b3/sshot-9.jpg",
+      "status": 200,
+      "bytes": 66928,
+      "file": "taiwanarch/public/assets/architect/b3/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-1/sshot-1.jpg",
+      "status": 200,
+      "bytes": 64135,
+      "file": "taiwanarch/public/assets/architect/b4-1/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-1/sshot-2.jpg",
+      "status": 200,
+      "bytes": 60609,
+      "file": "taiwanarch/public/assets/architect/b4-1/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-1/sshot-3.jpg",
+      "status": 200,
+      "bytes": 65740,
+      "file": "taiwanarch/public/assets/architect/b4-1/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-1/sshot-4.jpg",
+      "status": 200,
+      "bytes": 63873,
+      "file": "taiwanarch/public/assets/architect/b4-1/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-1/sshot-5.jpg",
+      "status": 200,
+      "bytes": 63609,
+      "file": "taiwanarch/public/assets/architect/b4-1/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-1/sshot-6.jpg",
+      "status": 200,
+      "bytes": 59006,
+      "file": "taiwanarch/public/assets/architect/b4-1/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-1/sshot-7.jpg",
+      "status": 200,
+      "bytes": 60932,
+      "file": "taiwanarch/public/assets/architect/b4-1/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-2/sshot-1.jpg",
+      "status": 200,
+      "bytes": 62997,
+      "file": "taiwanarch/public/assets/architect/b4-2/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-2/sshot-2.jpg",
+      "status": 200,
+      "bytes": 61166,
+      "file": "taiwanarch/public/assets/architect/b4-2/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-2/sshot-3.jpg",
+      "status": 200,
+      "bytes": 61127,
+      "file": "taiwanarch/public/assets/architect/b4-2/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-2/sshot-4.jpg",
+      "status": 200,
+      "bytes": 63212,
+      "file": "taiwanarch/public/assets/architect/b4-2/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-2/sshot-5.jpg",
+      "status": 200,
+      "bytes": 64621,
+      "file": "taiwanarch/public/assets/architect/b4-2/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-2/sshot-6.jpg",
+      "status": 200,
+      "bytes": 62568,
+      "file": "taiwanarch/public/assets/architect/b4-2/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b4-2/sshot-7.jpg",
+      "status": 200,
+      "bytes": 66091,
+      "file": "taiwanarch/public/assets/architect/b4-2/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-1.jpg",
+      "status": 200,
+      "bytes": 70956,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-10.jpg",
+      "status": 200,
+      "bytes": 66381,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-2.jpg",
+      "status": 200,
+      "bytes": 59791,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-3.jpg",
+      "status": 200,
+      "bytes": 66359,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-4.jpg",
+      "status": 200,
+      "bytes": 65232,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-5.jpg",
+      "status": 200,
+      "bytes": 59829,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-6.jpg",
+      "status": 200,
+      "bytes": 64272,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-7.jpg",
+      "status": 200,
+      "bytes": 59208,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-8.jpg",
+      "status": 200,
+      "bytes": 62456,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b5/sshot-9.jpg",
+      "status": 200,
+      "bytes": 60959,
+      "file": "taiwanarch/public/assets/architect/b5/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-1/sshot-1.jpg",
+      "status": 200,
+      "bytes": 67986,
+      "file": "taiwanarch/public/assets/architect/b6-1/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-1/sshot-2.jpg",
+      "status": 200,
+      "bytes": 66541,
+      "file": "taiwanarch/public/assets/architect/b6-1/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-1/sshot-3.jpg",
+      "status": 200,
+      "bytes": 62564,
+      "file": "taiwanarch/public/assets/architect/b6-1/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-1/sshot-4.jpg",
+      "status": 200,
+      "bytes": 59160,
+      "file": "taiwanarch/public/assets/architect/b6-1/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-1/sshot-5.jpg",
+      "status": 200,
+      "bytes": 59640,
+      "file": "taiwanarch/public/assets/architect/b6-1/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-1/sshot-6.jpg",
+      "status": 200,
+      "bytes": 64730,
+      "file": "taiwanarch/public/assets/architect/b6-1/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-2/sshot-1.jpg",
+      "status": 200,
+      "bytes": 55702,
+      "file": "taiwanarch/public/assets/architect/b6-2/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-2/sshot-2.jpg",
+      "status": 200,
+      "bytes": 61237,
+      "file": "taiwanarch/public/assets/architect/b6-2/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-2/sshot-3.jpg",
+      "status": 200,
+      "bytes": 58855,
+      "file": "taiwanarch/public/assets/architect/b6-2/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-2/sshot-4.jpg",
+      "status": 200,
+      "bytes": 60757,
+      "file": "taiwanarch/public/assets/architect/b6-2/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-2/sshot-5.jpg",
+      "status": 200,
+      "bytes": 56656,
+      "file": "taiwanarch/public/assets/architect/b6-2/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-2/sshot-6.jpg",
+      "status": 200,
+      "bytes": 61031,
+      "file": "taiwanarch/public/assets/architect/b6-2/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-2/sshot-7.jpg",
+      "status": 200,
+      "bytes": 55240,
+      "file": "taiwanarch/public/assets/architect/b6-2/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-2/sshot-8.jpg",
+      "status": 200,
+      "bytes": 55155,
+      "file": "taiwanarch/public/assets/architect/b6-2/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b6-2/sshot-9.jpg",
+      "status": 200,
+      "bytes": 63412,
+      "file": "taiwanarch/public/assets/architect/b6-2/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-1.jpg",
+      "status": 200,
+      "bytes": 91281,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-10.jpg",
+      "status": 200,
+      "bytes": 85340,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-11.jpg",
+      "status": 200,
+      "bytes": 69386,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-11.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-12.jpg",
+      "status": 200,
+      "bytes": 96242,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-12.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-13.jpg",
+      "status": 200,
+      "bytes": 55310,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-13.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-14.jpg",
+      "status": 200,
+      "bytes": 77786,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-14.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-15.jpg",
+      "status": 200,
+      "bytes": 92962,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-15.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-2.jpg",
+      "status": 200,
+      "bytes": 74562,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-3.jpg",
+      "status": 200,
+      "bytes": 98870,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-4.jpg",
+      "status": 200,
+      "bytes": 73767,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-5.jpg",
+      "status": 200,
+      "bytes": 69990,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-6.jpg",
+      "status": 200,
+      "bytes": 84646,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-7.jpg",
+      "status": 200,
+      "bytes": 63893,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-8.jpg",
+      "status": 200,
+      "bytes": 71200,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-1/sshot-9.jpg",
+      "status": 200,
+      "bytes": 79140,
+      "file": "taiwanarch/public/assets/architect/b7-1/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-1.jpg",
+      "status": 200,
+      "bytes": 71784,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-10.jpg",
+      "status": 200,
+      "bytes": 66428,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-11.jpg",
+      "status": 200,
+      "bytes": 55607,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-11.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-12.jpg",
+      "status": 200,
+      "bytes": 70578,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-12.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-13.jpg",
+      "status": 200,
+      "bytes": 57679,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-13.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-14.jpg",
+      "status": 200,
+      "bytes": 75785,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-14.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-15.jpg",
+      "status": 200,
+      "bytes": 75243,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-15.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-2.jpg",
+      "status": 200,
+      "bytes": 65705,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-3.jpg",
+      "status": 200,
+      "bytes": 68250,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-4.jpg",
+      "status": 200,
+      "bytes": 57917,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-5.jpg",
+      "status": 200,
+      "bytes": 61153,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-6.jpg",
+      "status": 200,
+      "bytes": 98774,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-7.jpg",
+      "status": 200,
+      "bytes": 56549,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-8.jpg",
+      "status": 200,
+      "bytes": 53510,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b7-2/sshot-9.jpg",
+      "status": 200,
+      "bytes": 61926,
+      "file": "taiwanarch/public/assets/architect/b7-2/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-1/sshot-1.jpg",
+      "status": 200,
+      "bytes": 117110,
+      "file": "taiwanarch/public/assets/architect/b8-1/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-1/sshot-2.jpg",
+      "status": 200,
+      "bytes": 80526,
+      "file": "taiwanarch/public/assets/architect/b8-1/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-1/sshot-3.jpg",
+      "status": 200,
+      "bytes": 103335,
+      "file": "taiwanarch/public/assets/architect/b8-1/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-1/sshot-4.jpg",
+      "status": 200,
+      "bytes": 81431,
+      "file": "taiwanarch/public/assets/architect/b8-1/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-1/sshot-5.jpg",
+      "status": 200,
+      "bytes": 85171,
+      "file": "taiwanarch/public/assets/architect/b8-1/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-1/sshot-6.jpg",
+      "status": 200,
+      "bytes": 98443,
+      "file": "taiwanarch/public/assets/architect/b8-1/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-1/sshot-7.jpg",
+      "status": 200,
+      "bytes": 109188,
+      "file": "taiwanarch/public/assets/architect/b8-1/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-1/sshot-8.jpg",
+      "status": 200,
+      "bytes": 97076,
+      "file": "taiwanarch/public/assets/architect/b8-1/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-2/sshot-1.jpg",
+      "status": 200,
+      "bytes": 86843,
+      "file": "taiwanarch/public/assets/architect/b8-2/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-2/sshot-2.jpg",
+      "status": 200,
+      "bytes": 77217,
+      "file": "taiwanarch/public/assets/architect/b8-2/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-2/sshot-3.jpg",
+      "status": 200,
+      "bytes": 62300,
+      "file": "taiwanarch/public/assets/architect/b8-2/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-2/sshot-4.jpg",
+      "status": 200,
+      "bytes": 96633,
+      "file": "taiwanarch/public/assets/architect/b8-2/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-2/sshot-5.jpg",
+      "status": 200,
+      "bytes": 90444,
+      "file": "taiwanarch/public/assets/architect/b8-2/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-2/sshot-6.jpg",
+      "status": 200,
+      "bytes": 91970,
+      "file": "taiwanarch/public/assets/architect/b8-2/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-2/sshot-7.jpg",
+      "status": 200,
+      "bytes": 112309,
+      "file": "taiwanarch/public/assets/architect/b8-2/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b8-2/sshot-8.jpg",
+      "status": 200,
+      "bytes": 84393,
+      "file": "taiwanarch/public/assets/architect/b8-2/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-1.jpg",
+      "status": 200,
+      "bytes": 69482,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-10.jpg",
+      "status": 200,
+      "bytes": 77914,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-11.jpg",
+      "status": 200,
+      "bytes": 71164,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-11.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-12.jpg",
+      "status": 200,
+      "bytes": 62658,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-12.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-2.jpg",
+      "status": 200,
+      "bytes": 70827,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-4.jpg",
+      "status": 200,
+      "bytes": 69289,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-5.jpg",
+      "status": 200,
+      "bytes": 66941,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-6.jpg",
+      "status": 200,
+      "bytes": 76135,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-7.jpg",
+      "status": 200,
+      "bytes": 66644,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-8.jpg",
+      "status": 200,
+      "bytes": 67829,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b9/sshot-9.jpg",
+      "status": 200,
+      "bytes": 65016,
+      "file": "taiwanarch/public/assets/architect/b9/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b10/sshot-10.jpg",
+      "status": 200,
+      "bytes": 66083,
+      "file": "taiwanarch/public/assets/architect/b10/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b10/sshot-11.jpg",
+      "status": 200,
+      "bytes": 66966,
+      "file": "taiwanarch/public/assets/architect/b10/sshot-11.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b10/sshot-12.jpg",
+      "status": 200,
+      "bytes": 91076,
+      "file": "taiwanarch/public/assets/architect/b10/sshot-12.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b10/sshot-2.jpg",
+      "status": 200,
+      "bytes": 85330,
+      "file": "taiwanarch/public/assets/architect/b10/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b10/sshot-8.jpg",
+      "status": 200,
+      "bytes": 54024,
+      "file": "taiwanarch/public/assets/architect/b10/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b10/sshot-9.jpg",
+      "status": 200,
+      "bytes": 49908,
+      "file": "taiwanarch/public/assets/architect/b10/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-1.jpg",
+      "status": 200,
+      "bytes": 105257,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-10.jpg",
+      "status": 200,
+      "bytes": 84909,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-11.jpg",
+      "status": 200,
+      "bytes": 86480,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-11.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-12.jpg",
+      "status": 200,
+      "bytes": 105530,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-12.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-13.jpg",
+      "status": 200,
+      "bytes": 84987,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-13.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-2.jpg",
+      "status": 200,
+      "bytes": 82486,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-3.jpg",
+      "status": 200,
+      "bytes": 82408,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-4.jpg",
+      "status": 200,
+      "bytes": 58488,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-5.jpg",
+      "status": 200,
+      "bytes": 65075,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-6.jpg",
+      "status": 200,
+      "bytes": 76486,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-7.jpg",
+      "status": 200,
+      "bytes": 103468,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-8.jpg",
+      "status": 200,
+      "bytes": 85651,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b11/sshot-9.jpg",
+      "status": 200,
+      "bytes": 83411,
+      "file": "taiwanarch/public/assets/architect/b11/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-1.jpg",
+      "status": 200,
+      "bytes": 45881,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-10.jpg",
+      "status": 200,
+      "bytes": 53344,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-2.jpg",
+      "status": 200,
+      "bytes": 56592,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-3.jpg",
+      "status": 200,
+      "bytes": 59099,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-4.jpg",
+      "status": 200,
+      "bytes": 69712,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-5.jpg",
+      "status": 200,
+      "bytes": 55719,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-6.jpg",
+      "status": 200,
+      "bytes": 73515,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-7.jpg",
+      "status": 200,
+      "bytes": 73305,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-8.jpg",
+      "status": 200,
+      "bytes": 63506,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b12/sshot-9.jpg",
+      "status": 200,
+      "bytes": 110245,
+      "file": "taiwanarch/public/assets/architect/b12/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-1.jpg",
+      "status": 200,
+      "bytes": 78646,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-10.jpg",
+      "status": 200,
+      "bytes": 52593,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-11.jpg",
+      "status": 200,
+      "bytes": 60543,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-11.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-2.jpg",
+      "status": 200,
+      "bytes": 67731,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-3.jpg",
+      "status": 200,
+      "bytes": 64990,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-4.jpg",
+      "status": 200,
+      "bytes": 67178,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-5.jpg",
+      "status": 200,
+      "bytes": 60148,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-6.jpg",
+      "status": 200,
+      "bytes": 67609,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-7.jpg",
+      "status": 200,
+      "bytes": 63805,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-8.jpg",
+      "status": 200,
+      "bytes": 72945,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-1/sshot-9.jpg",
+      "status": 200,
+      "bytes": 40003,
+      "file": "taiwanarch/public/assets/architect/b13-1/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-1.jpg",
+      "status": 200,
+      "bytes": 73788,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-1.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-10.jpg",
+      "status": 200,
+      "bytes": 61429,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-10.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-2.jpg",
+      "status": 200,
+      "bytes": 69926,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-2.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-3.jpg",
+      "status": 200,
+      "bytes": 67211,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-3.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-4.jpg",
+      "status": 200,
+      "bytes": 64673,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-4.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-5.jpg",
+      "status": 200,
+      "bytes": 77572,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-5.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-6.jpg",
+      "status": 200,
+      "bytes": 82593,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-6.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-7.jpg",
+      "status": 200,
+      "bytes": 62701,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-7.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-8.jpg",
+      "status": 200,
+      "bytes": 85407,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-8.jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://taiwanarch.jushiung.workers.dev/assets/architect/b13-2/sshot-9.jpg",
+      "status": 200,
+      "bytes": 42848,
+      "file": "taiwanarch/public/assets/architect/b13-2/sshot-9.jpg",
+      "contentType": "image/jpeg"
+    }
+  ]
+}
