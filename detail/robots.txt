@@ -1,0 +1,17 @@
+# detail.taiwanarch.com — robots.txt
+# 建築工程詳圖 / 施工大樣 / 結構節點 圖庫
+
+User-agent: *
+Allow: /
+
+# 主要頁面
+Allow: /index.html
+
+# 不索引壓縮檔與後台
+Disallow: /downloads/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.zip$
+Disallow: /*.dwg$
+
+Sitemap: https://detail.taiwanarch.com/sitemap.xml

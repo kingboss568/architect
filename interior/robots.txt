@@ -1,0 +1,15 @@
+# interior.taiwanarch.com — robots.txt
+# 私邸室內設計 / 豪宅圖庫 / 室內立面 DWG 圖庫
+
+User-agent: *
+Allow: /
+
+Allow: /index.html
+
+Disallow: /downloads/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.zip$
+Disallow: /*.dwg$
+
+Sitemap: https://interior.taiwanarch.com/sitemap.xml
